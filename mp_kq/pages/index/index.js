@@ -9,6 +9,9 @@ Page({
       }, {
         text: '列表',
         showExtr: true, 
+      }, {
+        text: '九宫格',
+        showExtr: true,
       } ]
   },
   onLoad: function () {
@@ -25,6 +28,11 @@ Page({
       case 1: 
         wx.navigateTo({
           url: '/pages/list/list',
+        })
+        break;
+      case 2:
+        wx.navigateTo({
+          url: '/pages/grid/grid',
         })
         break;
       default: 

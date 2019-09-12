@@ -1,0 +1,7 @@
+<!--components/grid/grid_item.wxml-->
+<view class="mpkq-gridItem" bindtap="_tapItemEvent">
+  <view class='mpkq-grid_icon'>
+    <image src="{{icon}}"></image>
+  </view>
+  <view class='mpkq-grid_text'>{{text}}<slot></slot></view>
+</view>

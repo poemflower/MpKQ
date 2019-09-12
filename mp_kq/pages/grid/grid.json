@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "grid": "/components/grid/grid",
+    "gridItem": "/components/grid/grid_item"
+  }
+}

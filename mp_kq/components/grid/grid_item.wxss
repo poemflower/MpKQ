@@ -1,0 +1,34 @@
+/* components/grid/grid_item.wxss */
+:host {
+  flex: 0 0 25%;
+  text-align: center;
+  padding: 32rpx 0 32rpx 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.mpkq-gridItem{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.mpkq-grid_icon{
+  width: 48rpx;
+  height: 48rpx;
+  margin-bottom: 12rpx;
+}
+.mpkq-grid_icon image{
+  width: 48rpx;
+  height: 48rpx;
+}
+.mpkq-grid_text{
+  color: rgba(0,0,0,0.9);
+  display: block;
+  font-size: 24rpx;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}

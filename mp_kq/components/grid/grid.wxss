@@ -1,0 +1,16 @@
+/* components/grid/grid.wxss */
+.mpkq-grid{
+  /* background-color: #fff; */
+  width: 100%;
+}
+.mpkq-grid_sub{
+  padding: 16rpx 24rpx;
+  font-size: 26rpx;
+  color: #555;
+  line-height: 44rpx
+}
+.mpkq-grid_content{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}

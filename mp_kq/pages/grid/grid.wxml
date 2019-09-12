@@ -1,0 +1,2 @@
+<!--pages/grid/grid.wxml-->
+<grid sub="使用datas生成列表" datas="{{listDatas}}" bind:onTap="listTapEvent" bindtapSub="tapSubEvent" />
