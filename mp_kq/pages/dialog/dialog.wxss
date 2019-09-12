@@ -1,0 +1,8 @@
+/* pages/dialog/dialog.wxss */
+.container{
+  margin: 10px 0;
+  width: 100%;
+}
+.mpkq-btn{
+  margin: 10px 0;
+}

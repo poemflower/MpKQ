@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "list": "/components/list/list",
+    "listItem": "/components/list/list_item"
+  },
+  "navigationBarTitleText": "常用组件"
+}
