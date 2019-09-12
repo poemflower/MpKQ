@@ -1,0 +1,18 @@
+<!--pages/list/list.wxml-->
+<list sub="带说明的列表项"  >
+  <listItem text="标题文本" value="说明文本" ></listItem> 
+</list>
+<list sub="带图标、说明的列表项"  >
+  <listItem icon="{{base64.icon20}}" text="标题文本" value="说明文本" ></listItem> 
+  <listItem icon="{{base64.icon20}}" text="标题文本" value="说明文本" ></listItem> 
+</list>
+<list sub="带跳转的列表项"  >
+  <listItem showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
+  <listItem showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
+</list>
+<list sub="带图标、说明、跳转的列表项"  >
+  <listItem icon="{{base64.icon20}}" showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
+  <listItem icon="{{base64.icon20}}" showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
+</list>
+<list sub="使用datas生成列表" datas="{{listDatas}}" bind:onTap="listTapEvent" bindtapSub="tapSubEvent" />
+

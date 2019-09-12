@@ -1,0 +1,53 @@
+/* components/list/list_item.wxss */
+.mpkq-listItem{
+  background-color: #fff;
+  padding: 32rpx 24rpx;
+  display: flex;
+}
+.mpkq-list_icon{
+  width: 64rpx;
+  margin: auto;
+  display: flex;
+  align-items: flex-end; 
+}
+.mpkq-list_icon image{
+  width: 40rpx;
+  height: 40rpx; 
+}
+.mpkq-list_text{
+  flex: 1;
+  font-size: 28rpx;
+  /* height: 40rpx; */
+  line-height: 40rpx;
+  color: #000;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.mpkq-list_value{
+  flex: 1;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #555;
+  text-align: right;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.mpkq-list_extr{
+  width: 50rpx;
+  margin: auto;
+  text-align:right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.mpkq-list_extr image{
+  width: 32rpx;
+  height: 32rpx;
+}

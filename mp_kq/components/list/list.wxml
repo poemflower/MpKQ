@@ -1,0 +1,14 @@
+<!--components/list/list.wxml-->
+<view class="mpkq-lis">
+  <view class="mpkq-list_sub" wx:if="{{sub}}" bindtap="_tapSubEvent">{{sub}}</view>
+  <listItem 
+    wx:for="{{datas}}"
+    wx:key="" 
+    text="{{item.text}}"
+    icon="{{item.icon}}"
+    showExtr="{{item.showExtr}}"
+    data-index="{{index}}"
+    data-data="{{item}}"
+    bindtap="_tapItemEvent"/>
+  <slot></slot>
+</view>
