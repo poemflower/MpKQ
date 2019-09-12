@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    base64:{},
+    base64: {},
     listDatas: [
       {
         text: '标题文本',
@@ -24,7 +24,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({ base64})
+    this.setData({ base64 })
   },
 
   /**
