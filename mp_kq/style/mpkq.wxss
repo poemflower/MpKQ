@@ -1,6 +1,0 @@
-@import './mpkq_mask.wxss';
-/* @import './mpkq_btn.wxss'; */
-page{
-  background-color: #EDEDED;
-  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
-}

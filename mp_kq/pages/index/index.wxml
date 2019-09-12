@@ -1,5 +1,0 @@
-
-
-
-<list sub="常用组件" datas="{{listDatas}}" bind:onTap="listTapEvent"/>
- 

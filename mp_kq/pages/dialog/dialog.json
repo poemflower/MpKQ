@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "dialog": "/components/dialog/dialog"
-  },
-  "navigationBarTitleText": "弹窗组件"
-}

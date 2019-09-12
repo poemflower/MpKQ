@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "list": "/components/list/list",
-    "listItem": "/components/list/list_item"
-  },
-  "navigationBarTitleText": "列表组件"
-}
