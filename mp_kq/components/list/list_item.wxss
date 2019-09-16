@@ -29,7 +29,7 @@
 .mpkq-list_value{
   flex: 1;
   font-size: 28rpx;
-  height: 40rpx;
+  /* height: 40rpx; */
   line-height: 40rpx;
   color: #555;
   text-align: right;

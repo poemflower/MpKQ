@@ -1,5 +1,6 @@
+<list sub="布局" datas="{{listDatas}}" bind:onTap="listTapEvent"/>
+<list sub="表单" bind:onTap="FormTapEvent" >
+  <listItem text="Start 评分星星" showExtr="true"></listItem> 
+</list>
 
-
-
-<list sub="常用组件" datas="{{listDatas}}" bind:onTap="listTapEvent"/>
  

@@ -4,13 +4,13 @@ Page({
     showDialog2: false,
     listDatas: [
       {
-        text:'弹窗',
+        text:'Dialog 弹窗',
         showExtr: true,
       }, {
-        text: '列表',
+        text: 'List 列表',
         showExtr: true, 
       }, {
-        text: '九宫格',
+        text: 'Grid 九宫格',
         showExtr: true,
       } ]
   },
@@ -38,5 +38,17 @@ Page({
       default: 
         console.log("default");
     }
-  } 
+  },
+  FormTapEvent: function (e){
+    let index = e.detail.index
+    switch (index) {
+      case 0:
+        wx.navigateTo({
+          url: '/pages/start/start',
+        })
+        break;
+      default:
+        console.log("default");
+    }
+  }
 })

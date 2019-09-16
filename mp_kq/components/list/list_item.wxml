@@ -1,10 +1,14 @@
 <!--components/list/list_item.wxml-->
 <view class="mpkq-listItem" bindtap="_tapItemEvent">
   <view class='mpkq-list_icon' wx:if="{{icon}}">
-    <image src="{{icon}}"  ></image>
+    <image src="{{icon}}"></image>
   </view>
-  <view class='mpkq-list_text'>{{text}}<slot></slot></view>
-  <view class='mpkq-list_value' wx:if="{{value}}">{{value}}</view>
+  <view class='mpkq-list_text'>
+    {{text}}<slot name="text"></slot>
+  </view>
+  <view class='mpkq-list_value'>
+    {{value}}<slot name="value"></slot>
+  </view>
   <view class='mpkq-list_extr' wx:if="{{showExtr}}">
     <image src="/assets/images/icon_right.png"></image>
   </view>

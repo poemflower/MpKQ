@@ -1,5 +1,10 @@
 // components/list/list_item.js
 Component({
+
+  options: {
+      multipleSlots: true
+  },
+
   relations: {
     './list': {
       type: 'parent', // 关联的目标节点应为父亲节点

@@ -5,7 +5,8 @@
     "components/dialog/dialog",
     "pages/dialog/dialog",
     "pages/list/list",
-    "pages/grid/grid"
+    "pages/grid/grid",
+    "pages/start/start"
   ],
   "window": {
     "backgroundTextStyle": "light",
