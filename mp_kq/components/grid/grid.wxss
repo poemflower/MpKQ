@@ -13,4 +13,11 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  background-color: #fff;
+}
+.mpkq-grid_text_content{
+  background-color: #fff;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
 }

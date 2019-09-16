@@ -1,12 +1,22 @@
 <!--components/grid/grid.wxml-->
 <view class="mpkq-grid">
-  <view class="mpkq-grid_sub" wx:if="{{sub}}" bindtap="_tapSubEvent">{{sub}}</view>
-  <view class="mpkq-grid_content">
+  <view class="mpkq-grid_sub title-class" wx:if="{{sub}}" bindtap="_tapSubEvent">{{sub}}</view>
+  <view class="mpkq-grid_content" wx:if="{{type == 'icon'}}">
     <gridItem 
     wx:for="{{datas}}"
     wx:key="" 
     text="{{item.text}}"
     icon="{{item.icon}}"
+    data-index="{{index}}"
+    data-data="{{item}}"
+    bindtap="_tapItemEvent"/>
+    <slot></slot>
+  </view>
+  <view class="mpkq-grid_text_content" wx:else>
+    <gridTextItem 
+    wx:for="{{datas}}"
+    wx:key="" 
+    text="{{item.text}}"
     data-index="{{index}}"
     data-data="{{item}}"
     bindtap="_tapItemEvent"/>

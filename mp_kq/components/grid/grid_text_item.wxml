@@ -1,0 +1,4 @@
+<!--components/grid/grid_text_item.wxml-->
+<view class="mpkq-gridTextItem" bindtap="_tapItemEvent">
+  {{text}}
+</view>

@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "gridItem": "./grid_item"
+    "gridItem": "./grid_item",
+    "gridTextItem": "./grid_text_item"
   }
 }

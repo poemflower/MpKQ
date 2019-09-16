@@ -1,1 +1,7 @@
 /* pages/grid/grid.wxss */
+.gridTitle{
+  color: #000 !important;
+  font-weight: 500;
+  background-color: #fff;
+  margin-top: 10px;
+}

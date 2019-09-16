@@ -1,4 +1,4 @@
-// components/grid/grid_item.js
+// components/grid/grid_text_item.js
 Component({
   relations: {
     './grid': {
@@ -9,10 +9,6 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    icon: {
-      type: String,
-      value: ''
-    },
     text: {
       type: String,
       value: ''
@@ -20,14 +16,14 @@ Component({
     url: {
       type: String,
       value: ''
-    }
+    } 
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+     
   },
 
   /**

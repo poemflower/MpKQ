@@ -1,0 +1,22 @@
+/* components/grid/grid_text_item.wxss */
+:host {
+  flex: 0 0 50%;
+  text-align: center;
+  overflow: hidden;
+}
+.mpkq-gridTextItem{
+  height: 68rpx;
+  line-height: 68rpx;
+  margin: 6rpx 4rpx;
+  background: #f8f8f8;
+  text-align: center;
+  color: #666;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  padding: 0 16rpx;
+}
+ 

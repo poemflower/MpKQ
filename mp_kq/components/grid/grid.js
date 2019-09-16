@@ -1,5 +1,6 @@
 // components/grid/grid.js
 Component({
+  externalClasses:['title-class'],
   relations: {
     './grid_item': {
       type: 'child', // 关联的目标节点应为子节点
@@ -15,6 +16,21 @@ Component({
         // 每次有list_item被移除时执行，target是该节点实例对象，触发在该节点detached生命周期之后
         this._updateDataChange(target)
       }
+    },
+    './grid_text_item': {
+      type: 'child', // 关联的目标节点应为子节点
+      linked: function (target) {
+        // 每次有list_item被插入时执行，target是该节点实例对象，触发在该节点attached生命周期之后
+        this._updateTextDataChange(target)
+      },
+      linkChanged: function (target) {
+        // 每次有list_item被移动后执行，target是该节点实例对象，触发在该节点moved生命周期之后
+        this._updateTextDataChange(target)
+      },
+      unlinked: function (target) {
+        // 每次有list_item被移除时执行，target是该节点实例对象，触发在该节点detached生命周期之后
+        this._updateTextDataChange(target)
+      }
     }
   },
   /**
@@ -24,6 +40,10 @@ Component({
     sub: {
       type: String,
       value: ''
+    },
+    type: {
+      type: String,
+      value: 'icon'//导航样式，有图标为icon，无图标为text
     },
     datas: {
       type: Array,
@@ -44,8 +64,6 @@ Component({
   methods: {
     _tapItemEvent: function (e) {
       let item = e.currentTarget.dataset.data
-      item.showExtr = item.showExtr == undefined ? false : item.showExtr
-      item.value = item.value == undefined ? '' : item.value
       let current = {
         data: item,
         index: e.currentTarget.dataset.index
@@ -59,6 +77,17 @@ Component({
     },
     _updateDataChange: function (target) {
       const nodes = this.getRelationNodes('./grid_item')
+      const len = nodes.length
+      if (len > 0) {
+        nodes.forEach((item, index) => {
+          item.setData({
+            index: index
+          })
+        })
+      }
+    },
+    _updateTextDataChange: function (target) {
+      const nodes = this.getRelationNodes('./grid_text_item')
       const len = nodes.length
       if (len > 0) {
         nodes.forEach((item, index) => {

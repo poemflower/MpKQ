@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "grid": "/components/grid/grid",
-    "gridItem": "/components/grid/grid_item"
-  }
+    "gridItem": "/components/grid/grid_item",
+    "gridTextItem": "/components/grid/grid_text_item"
+  },
+  "navigationBarTitleText": "九宫格"
 }

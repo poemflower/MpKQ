@@ -1,2 +1,18 @@
 <!--pages/grid/grid.wxml-->
-<grid sub="使用datas生成列表" datas="{{listDatas}}" bind:onTap="listTapEvent" bindtapSub="tapSubEvent" />
+<grid sub="图文导航" bind:onTap="gridTapEvent" >
+  <gridItem text="导航1" icon="{{base64.icon20}}"/>
+  <gridItem text="导航2" icon="{{base64.icon20}}"/>
+  <gridItem text="导航3" icon="{{base64.icon20}}"/>
+  <gridItem text="导航4" icon="{{base64.icon20}}"/>
+  <gridItem text="导航5" icon="{{base64.icon20}}"/>
+  <gridItem text="导航6" icon="{{base64.icon20}}"/>
+  <gridItem text="导航7" icon="{{base64.icon20}}"/>
+  <gridItem text="导航8" icon="{{base64.icon20}}"/>
+</grid>
+<grid sub="文本导航" type="text" bind:onTap="gridTapEvent">
+  <gridTextItem text="导航1" />
+  <gridTextItem text="导航2" />
+  <gridTextItem text="导航3" />
+  <gridTextItem text="导航4" />
+</grid>
+<grid sub="使用datas生成导航" datas="{{listDatas}}" bind:onTap="gridTapEvent" bindtapSub="tapSubEvent" title-class="gridTitle"/>

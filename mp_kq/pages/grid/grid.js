@@ -7,28 +7,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    listDatas: [
-      {
-        text: '标题文本标题文本标题文本标题文本',
-        icon: base64.icon20
-      }, {
-        text: '标题文本',
-        icon: base64.icon20
-      }, 
-      {
-        text: '标题文本',
-        icon: base64.icon20
-      }, {
-        text: '标题文本',
-        icon: base64.icon20
-      }]
+    listDatas: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let listDatas = []
+    for (let i = 0; i < 12; i++) {
+      listDatas.push({
+        text: '标题文本' + i,
+        icon: base64.icon20
+      })
+    }
+    this.setData({ base64, listDatas })
   },
 
   /**
@@ -78,5 +71,17 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  /**
+   * 点击导航
+   */
+  gridTapEvent: function (e) {
+    console.log(e.detail)
+  },
+  /**
+   * 点击导航标题
+   */
+  tapSubEvent: function (e){
+    console.log(e.detail)
   }
 })

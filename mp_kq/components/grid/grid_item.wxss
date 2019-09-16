@@ -15,7 +15,7 @@
 .mpkq-grid_icon{
   width: 48rpx;
   height: 48rpx;
-  margin-bottom: 12rpx;
+  margin-bottom: 16rpx;
 }
 .mpkq-grid_icon image{
   width: 48rpx;
