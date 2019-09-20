@@ -1,0 +1,18 @@
+<!--pages/radio/radio.wxml-->
+<view class="title">group用法</view>
+<kq-radio-group bindchange="changeRadio" current="{{current}}">
+  <kq-radio value="{{item.value}}"  wx:for="{{arrary}}" wx:key="{{item.id}}"  mpkq-class="base-line"/>
+</kq-radio-group>
+<list sub="按钮样式">
+  <listItem text="地区">
+    <view slot="value">
+      <kq-radio-group bindchange="changeRadio" current="{{current}}">
+        <kq-radio value="{{item.value}}" type="button" wx:for="{{arrary}}" wx:key="{{item.id}}" color="#19be6b"/>
+      </kq-radio-group>
+    </view>
+  </listItem>
+</list>
+ 
+
+<view class="title">单个用法</view>
+<kq-radio value="熊猫" checked="{{singleCheck}}" bindchange="changeSingle" position="left"/>

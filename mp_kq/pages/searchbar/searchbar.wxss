@@ -1,0 +1,7 @@
+/* pages/searchbar/searchbar.wxss */
+.boxShadow{
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
+}
+button{
+  margin-top: 40rpx;
+}

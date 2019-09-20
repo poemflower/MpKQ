@@ -6,6 +6,7 @@
     wx:key="" 
     text="{{item.text}}"
     icon="{{item.icon}}"
+    value="{{item.value}}"
     showExtr="{{item.showExtr}}"
     data-index="{{index}}"
     data-data="{{item}}"

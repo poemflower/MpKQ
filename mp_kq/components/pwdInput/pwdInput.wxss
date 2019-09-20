@@ -1,0 +1,40 @@
+/* public/PwdInput/PwdInput.wxss */
+.mpkq-flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mpkq-item_style{
+  width:80rpx;
+  height:80rpx;
+  background:#f2f2f2;
+  border-radius:6rpx;
+  border:1rpx solid #dadada;
+  margin-left:10rpx;
+  overflow: hidden;
+  position: relative;
+}
+.mpkq-pas_input {
+  border: 0;
+  color: #fff;
+  font-size: 24rpx;
+  height: 80rpx;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 8;
+  width: calc(100% + 100px);
+  left: -100px;
+}
+.mpkq-pwdInputStyle{
+  height:160rpx;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.mpkq-pwd_style{
+  width:20rpx;
+  height:20rpx;
+  background:black;
+  border-radius:10rpx;
+}

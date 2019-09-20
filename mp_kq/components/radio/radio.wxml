@@ -1,0 +1,15 @@
+<!--components/radio/radio.wxml-->
+<view class="mpkq-class mpkq-radio" catchtap="_tapItem" wx:if="{{type == 'circle'}}">
+  <label class="mpkq-radio_label mpkq-{{position}}">
+    <radio 
+      value="{{value}}" 
+      checked="{{checked}}" 
+      color="{{color}}"
+      disabled="{{disabled}}">
+    </radio>
+    <view class="mpkq-radio_text">{{value}}</view>
+  </label>
+</view>
+<view wx:else class="mpkq-class mpkq-radio_button {{checked?'mpkq-active':''}}" 
+style="background-color:{{checked?color:''}} " catchtap="_tapItem" >{{value}}</view> 
+

@@ -1,0 +1,6 @@
+<!--pages/searchbar/searchbar.wxml-->
+<view class="title">普通用法</view>
+<kq-search-bar  />
+<view class="title">阴影框</view>
+<kq-search-bar mpkq-class="boxShadow" focus="{{focus}}"/>
+<button type="primary" bindtap="tapFocuse" >点击获取焦点</button>

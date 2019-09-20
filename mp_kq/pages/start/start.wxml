@@ -1,16 +1,17 @@
 <!--pages/start/start.wxml-->
 
 <list>
-  <listItem>
-    <view slot="text">禁用点击选择星星</view>
-    <view slot="value"><start value="4" disabled="false" /></view>
+  <listItem text="禁用点击选择星星">
+    <view slot="text"></view>
+    <view slot="des"><start value="4" disabled="false" /></view>
   </listItem>
-  <listItem>
-    <view slot="text">基本用法</view>
-    <view slot="value"><start value="1"/></view>
+  <listItem text="基本用法">
+     <view slot="des"><start value="1"/></view>
   </listItem>  
-  <listItem>
-    <view slot="text">自定义星星大小</view>
-    <view slot="value"><start value="1" size="20"/></view>
+  <listItem text="自定义星星大小">
+     <view slot="des"><start value="1" size="15"/></view>
+  </listItem>  
+  <listItem text="自定义个数" value="{{autoNum}}颗星星" >
+    <view slot="des"><start value="{{autoNum}}" size="15" count="8" bind:change="changeAutoNum"/></view>
   </listItem>  
 </list>

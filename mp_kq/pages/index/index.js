@@ -47,7 +47,37 @@ Page({
           url: '/pages/start/start',
         })
         break;
-      default:
+      case 1:
+        wx.navigateTo({
+          url: '/pages/input/input',
+        })
+        break;
+      case 2:
+        wx.navigateTo({
+          url: '/pages/password/password',
+        })
+        break; 
+      case 3:
+        wx.navigateTo({
+          url: '/pages/radio/radio',
+        })
+        break; 
+      case 4:
+        wx.navigateTo({
+          url: '/pages/checkbox/checkbox',
+        })
+        break;    
+      case 5:
+        wx.navigateTo({
+          url: '/pages/searchbar/searchbar',
+        })
+        break;
+      case 6:
+        wx.navigateTo({
+          url: '/pages/stepper/stepper',
+        })
+        break;
+      default: 
         console.log("default");
     }
   }

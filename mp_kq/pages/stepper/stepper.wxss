@@ -1,0 +1,12 @@
+/* pages/stepper/stepper.wxss */
+.stepper_class{
+  background-color: #fff;
+}
+.stepper_class:host .mpkq-minus_btn{
+  background-color: #2d8cf0;
+  color: #fff;
+}
+.stepper_class .mpkq-plus_btn{
+  background-color: #2d8cf0;
+  color: #fff;
+}

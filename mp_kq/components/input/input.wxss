@@ -1,0 +1,20 @@
+/* components/input/input.wxss */
+:host{
+  width: 100%;
+}
+.mpkq-input_box{
+  /* height: 44px;
+  line-height: 44px; */
+  color: #333;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.mpkq-input_box input{
+  padding: 0 16rpx 0 0 ;
+}
+.mpkq-input_box icon{
+  line-height: 1;
+  padding: 0 8rpx 0 0;
+}

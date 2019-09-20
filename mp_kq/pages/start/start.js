@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    autoNum:1
   },
 
   /**
@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  changeAutoNum: function (e){
+     this.setData({
+      autoNum: e.detail.value 
+    })
   }
 })

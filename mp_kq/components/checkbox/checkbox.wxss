@@ -1,0 +1,33 @@
+/* components/checkbox/checkbox.wxss */
+.mpkq-checkbox{
+  background-color: #fff;
+  padding: 24rpx 24rpx;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.mpkq-checkbox_label{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #000;
+  display: flex;
+  width: 100%;
+}
+.mpkq-checkbox_label radio{
+  width: 68rpx;
+}
+.mpkq-checkbox_text{
+  display: inline-block;
+  flex: 1;
+}
+.mpkq-left{
+  flex-direction: row
+}
+.mpkq-right{
+  flex-direction: row-reverse
+}
+.mpkq-right radio{
+  text-align: right;
+}
+ 

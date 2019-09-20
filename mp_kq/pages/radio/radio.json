@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "list": "/components/list/list",
+    "listItem": "/components/list/list_item",
+    "kq-radio": "/components/radio/radio",
+    "kq-radio-group": "/components/radio-group/radio-group"
+  },
+  "navigationBarTitleText": "单选"
+}

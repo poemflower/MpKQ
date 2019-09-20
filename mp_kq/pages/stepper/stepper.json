@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "list": "/components/list/list",
+    "listItem": "/components/list/list_item",
+    "stepper": "/components/stepper/stepper"
+  },
+  "navigationBarTitleText": "步进器"
+}

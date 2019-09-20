@@ -1,0 +1,5 @@
+<!--pages/checkbox/checkbox.wxml-->
+<view class="title">默认用法</view>
+<kq-checkbox-group bindchange="changeFruit" current="{{value}}">
+  <kq-checkbox wx:for="{{datas}}" wx:key="{{item.id}}" value="{{item.value}}"/>
+</kq-checkbox-group>

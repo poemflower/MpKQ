@@ -1,0 +1,20 @@
+<!--pages/input/input.wxml-->
+<list sub="基础用法">
+  <listItem text="文本输入框"  >
+    <view slot="value">
+      <kq-input placeholder="请输入" bindfocus="inputfocus" bindblur="inputblur" bindclear="inputclear" bindchange="inputchange"/>
+    </view>
+  </listItem>
+  <listItem text="输入框已禁用"  >
+    <view slot="value">
+      <kq-input type="password" disabled="{{true}}" placeholder="输入框已禁用"/>
+    </view>
+  </listItem>    
+  <listItem text="输入框获取焦点"  >
+    <view slot="value">
+      <kq-input type="password" focus="{{focus}}"  placeholder="密码输入"/>
+    </view>
+  </listItem>  
+</list> 
+<button type="primary" bindtap="tapFocuse">点击获取焦点</button>
+

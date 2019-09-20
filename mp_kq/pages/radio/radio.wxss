@@ -1,0 +1,24 @@
+/* pages/radio/radio.wxss */
+
+.contentBg{
+  background-color: #fff;
+}
+ 
+.base-line{
+  position:relative;
+}
+.base-line::after{
+  content:'';
+  position:absolute;
+  top:0;
+  width:200%;
+  height:200%;
+  transform:scale(.5);
+  transform-origin:0 0;
+  pointer-events:none;
+  box-sizing:border-box;
+  border:0 solid #e9eaec;
+  border-bottom-width:1px;
+  left:15px;
+  right:0
+}

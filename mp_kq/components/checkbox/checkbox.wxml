@@ -1,0 +1,13 @@
+<!--components/checkbox/checkbox.wxml-->
+<view class="mpkq-class mpkq-checkbox" catchtap="_tapItem"  >
+  <label class="mpkq-checkbox_label mpkq-{{position}}">
+    <radio 
+      value="{{value}}" 
+      checked="{{checked}}" 
+      color="{{color}}"
+      disabled="{{disabled}}">
+    </radio>
+    <view class="mpkq-checkbox_text">{{value}}</view>
+  </label>
+</view>
+ 

@@ -6,11 +6,17 @@
     "pages/dialog/dialog",
     "pages/list/list",
     "pages/grid/grid",
-    "pages/start/start"
+    "pages/start/start",
+    "pages/input/input",
+    "pages/password/password",
+    "pages/radio/radio",
+    "pages/checkbox/checkbox",
+    "pages/searchbar/searchbar",
+    "pages/stepper/stepper"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f9f9f9",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },

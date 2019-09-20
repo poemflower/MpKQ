@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "kq-checkbox": "/components/checkbox/checkbox",
+    "kq-checkbox-group": "/components/checkbox-group/checkbox-group"
+  },
+  "navigationBarTitleText": "复选"
+}

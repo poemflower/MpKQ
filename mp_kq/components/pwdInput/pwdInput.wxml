@@ -1,0 +1,9 @@
+<!--public/PwdInput/PwdInput.wxml-->
+<view class="mpkq-pwdInputStyle">
+    <input class="mpkq-pas_input" type="number" maxlength="6" focus="{{focus}}" bindinput="_onChangeInput" adjust-position="{{false}}" value="{{passWord}}"/>
+    <block wx:for="{{length}}" wx:key="">
+      <view class="mpkq-item_style mpkq-flex_center">
+        <view wx:if="{{passWordArr[item] == true}}" class="mpkq-pwd_style"></view>
+      </view>
+    </block>
+  </view>

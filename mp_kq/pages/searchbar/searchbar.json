@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "kq-search-bar": "/components/search-bar/search-bar"
+  },
+  "navigationBarTitleText": "搜索框"
+}

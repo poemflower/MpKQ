@@ -3,7 +3,6 @@
     "start": "/components/start/start",
     "list": "/components/list/list",
     "listItem": "/components/list/list_item"
-
   },
   "navigationBarTitleText": "评分星星"
 }

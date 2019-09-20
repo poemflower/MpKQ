@@ -29,6 +29,10 @@ Component({
     value:{
       type: String,
       value: ''
+    },
+    des: {
+      type: String,
+      value: ''
     }
   },
 

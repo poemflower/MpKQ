@@ -1,0 +1,4 @@
+/* pages/input/input.wxss */
+button{
+  margin-top: 40rpx;
+}

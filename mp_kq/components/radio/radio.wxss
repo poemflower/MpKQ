@@ -1,0 +1,49 @@
+/* components/radio/radio.wxss */
+.mpkq-radio{
+  background-color: #fff;
+  padding: 24rpx 24rpx;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.mpkq-radio_label{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #000;
+  display: flex;
+  width: 100%;
+}
+.mpkq-radio_label radio{
+  width: 68rpx;
+}
+.mpkq-radio_text{
+  display: inline-block;
+  flex: 1;
+}
+.mpkq-left{
+  flex-direction: row
+}
+.mpkq-right{
+  flex-direction: row-reverse
+}
+.mpkq-right radio{
+  text-align: right;
+}
+.mpkq-radio_button{
+  padding: 4rpx 8rpx;
+  border-radius: 10rpx;
+  height: 6r0px;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  color: #000;
+  border:1px solid #F6F6F6;
+  background-color:#F6F6F6;
+  margin-right: 12rpx;
+  min-width: 100rpx;
+  display: inline-block;
+  text-align:center;
+}
+.mpkq-active{
+  color: #fff ;
+}

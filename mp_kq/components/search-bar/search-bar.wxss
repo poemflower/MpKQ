@@ -1,0 +1,22 @@
+/* components/searchbar/searchbar.wxss */
+.mpkq-searchbox{
+  background-color: #fff;
+  padding: 10rpx;
+}
+.mpkq-search_inner{
+  background-color: #f6f6f6;
+  border-radius: 40rpx;
+  display: flex;
+  padding: 14rpx 20rpx;
+}
+.mpkq-searchbox icon{
+  width: 80rpx;
+  text-align: center;
+  margin: auto;
+}
+.mpkq-searchbox input{
+  background-color: #f6f6f6;
+  flex: 1;
+  font-size: 28rpx;
+  color: #000;
+}

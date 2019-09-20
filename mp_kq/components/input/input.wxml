@@ -1,0 +1,15 @@
+<!--components/input/input.wxml-->
+<view class='mpkq-input_box'>
+  <input confirm-type="done" 
+    type="{{ type }}" 
+    disabled="{{ disabled }}"
+    placeholder="{{ placeholder }}" 
+    value="{{ value }}" 
+    focus="{{ focus }}"
+    adjust-position="{{false}}"
+    bindfocus="_bindFocus" 
+    bindblur="_bindBlur" 
+    bindconfirm="_bindconfirm"
+    bindinput='_bindinput' />
+  <icon bindtap='_clearInput' wx:if="{{showClear}}" type="clear"  size="16" color="#999"/>
+</view>

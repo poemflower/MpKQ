@@ -1,0 +1,2 @@
+<!--components/checkbox-group/checkbox-group.wxml-->
+<slot></slot>

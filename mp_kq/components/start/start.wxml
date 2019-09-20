@@ -1,12 +1,10 @@
 <!--components/start/start.wxml-->
-<view class="container">
-  <view class="comment1-description">
-    <view class="star-pos" style="display:flex;flex-direction:row;">
-      <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px;' class="stars {{value>=1? 'on': ''}}" bindtap="changeColor" data-index="{{1}}"></view>
-      <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px' class="stars {{value>=2? 'on': ''}}" bindtap="changeColor" data-index="{{2}}"></view>
-      <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px' class="stars {{value>=3? 'on': ''}}" bindtap="changeColor" data-index="{{3}}"></view>
-      <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px' class="stars {{value>=4? 'on': ''}}" bindtap="changeColor" data-index="{{4}}"></view>
-      <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px' class="stars {{value>=5? 'on': ''}}" bindtap="changeColor" data-index="{{5}}"></view>
+<view>
+  <view class="mpkq-start_box">
+    <view class="mpkq-start_inner_box">
+      <block wx:for="{{count}}" wx:key="{{item}}">
+        <view style='width:{{size}}px;height:{{size}}px;background-size:{{size}}px {{size}}px;' class="mpkq-stars {{value>=index+1? 'on': ''}}" bindtap="changeColor" data-index="{{index}}"></view>
+       </block>   
     </view>
   </view>
 </view>

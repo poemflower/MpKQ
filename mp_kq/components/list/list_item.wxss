@@ -1,8 +1,10 @@
 /* components/list/list_item.wxss */
 .mpkq-listItem{
   background-color: #fff;
-  padding: 32rpx 24rpx;
+  padding: 24rpx 24rpx;
   display: flex;
+  position: relative;
+  align-items: center;
 }
 .mpkq-list_icon{
   width: 64rpx;
@@ -14,8 +16,10 @@
   width: 40rpx;
   height: 40rpx; 
 }
-.mpkq-list_text{
+.mpkq-list_title{
   flex: 1;
+}
+.mpkq-list_text{
   font-size: 28rpx;
   /* height: 40rpx; */
   line-height: 40rpx;
@@ -26,11 +30,15 @@
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
+.mpkq-list_des{
+  line-height: 32rpx;
+  color: #80848f;
+  font-size: 24rpx;
+}
 .mpkq-list_value{
-  flex: 1;
   font-size: 28rpx;
-  /* height: 40rpx; */
   line-height: 40rpx;
+  position: relative;
   color: #555;
   text-align: right;
   word-break: break-all;

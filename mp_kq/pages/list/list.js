@@ -14,7 +14,7 @@ Page({
         showExtr: true,
       }, {
         text: '标题文本',
-        value: "说明文本",
+        value: "说明文本说明文本说明文本说明文本说明文本说明文本",
         showExtr: true,
         icon: base64.icon20
       }]

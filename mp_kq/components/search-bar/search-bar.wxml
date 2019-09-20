@@ -1,0 +1,16 @@
+<!--components/search-bar/search-bar.wxml-->
+<view class="mpkq-searchbox mpkq-class">
+  <view class="mpkq-search_inner">
+      <icon type="search" size="18" color="#333"/>
+      <input focus="{{focus}}"
+        type="text" 
+        value="{{value}}" 
+        placeholder="{{placeholder}}" 
+        confirm-type="search"
+        bindfocus="_bindFocus" 
+        bindblur="_bindBlur" 
+        bindconfirm="_bindconfirm"
+        bindinput="_bindinput"	/>
+      <icon wx:if="{{showClear}}" bindtap="_inputClear" type="clear" size="18" color="#333"/>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/stepper/stepper.wxml-->
+<list sub="默认使用">
+  <listItem text="数值 {{value}}">
+    <view slot="value">
+      <stepper value="{{value}}" bindchange="change" />
+    </view>
+  </listItem>
+  <listItem text="最大 9">
+    <view slot="value">
+      <stepper max="9" mpkq-class="stepper_class"/>
+    </view>
+  </listItem>
+</list>

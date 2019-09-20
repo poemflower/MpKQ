@@ -1,0 +1,10 @@
+<!--components/stepper/stepper.wxml-->
+ <view class="mpkq-stepper_box mpkq-class">
+    <view class="mpkq-minus_btn" 
+      style="color:{{(value==min)||disabled?'#DADADA':white}}" bindtap="_onTapMinus">-</view>
+    <view class="mpkq-stepper_inputbox">
+      <input disabled='{{inputDisabled}}' class="mpkq-stepper_input" value="{{value}}" type="number" bindinput="_bindinput" bindblur="_bindblur" />
+    </view>
+    <view class="mpkq-plus_btn" 
+      style="color:{{(value==max)||disabled?'#DADADA':white}}" bindtap="_onTapPlus">+</view>
+  </view>

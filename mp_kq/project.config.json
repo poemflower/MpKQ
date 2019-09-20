@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -60,6 +60,41 @@
 					"id": -1,
 					"name": "start",
 					"pathName": "pages/start/start",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "输入框",
+					"pathName": "pages/input/input",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "radio",
+					"pathName": "pages/radio/radio",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "searchbar",
+					"pathName": "pages/searchbar/searchbar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/stepper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "checkbox",
+					"pathName": "pages/checkbox/checkbox",
 					"scene": null
 				}
 			]

@@ -1,0 +1,2 @@
+<!--components/radio-group/radio-group.wxml-->
+<slot></slot>

@@ -1,0 +1,31 @@
+/* components/stepper/stepper.wxss */
+.mpkq-stepper_box {
+  display:flex;
+  border:0rpx solid #DADADA;
+  border-radius:6rpx;
+}
+.mpkq-minus_btn {
+  height:58rpx;
+  width:60rpx;
+  border-right:0rpx solid #DADADA;
+  display:flex;
+  justify-content:center;
+  line-height: 58rpx;
+}
+.mpkq-plus_btn {
+  height:58rpx;
+  width:60rpx;
+  display:flex;
+  justify-content:center;
+  line-height: 58rpx;
+}
+.mpkq-stepper_inputbox{
+  flex: 1;
+}
+.mpkq-stepper_input {
+  flex:1;
+  text-align:center;
+  font-size:26rpx;
+  background:white;
+  height:54rpx;
+}

@@ -4,7 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    show: {// 显示
+    show: { 
       type: Boolean,
       value: false
     },
