@@ -1,0 +1,13 @@
+<!--components/tabs/tabs.wxml-->
+<scroll-view scroll-x class="mpkq-tabsBox mpkq-scrollBox {{ fixed ? 'mpkq-tabs-fixed' : '' }}" wx:if="{{ scroll }}" scroll-into-view="{{current}}">
+  <slot></slot>
+  <tabItem wx:for="{{datas}}" wx:key="{{index}}" 
+    title="{{item.title}}" 
+    key="{{item.key}}" 
+    checked="{{item.checked}}"
+    data-id="{{item.key}}" 
+    bindtap="_tapTabItem"></tabItem>
+</scroll-view>
+<view wx:else class="mpkq-tabsBox {{ fixed ? 'mpkq-tabs-fixed' : '' }}">
+  <slot></slot>
+</view>

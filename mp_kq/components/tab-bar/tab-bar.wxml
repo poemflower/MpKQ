@@ -1,0 +1,4 @@
+<!--components/tab-bar/tab-bar.wxml-->
+<view class="mpkq-tabBar_box {{fixed?'mpkq-tabBar_fixed':''}}">
+  <slot></slot>
+</view>

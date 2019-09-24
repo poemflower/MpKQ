@@ -1,5 +1,19 @@
 /**index.wxss**/
- 
+.info{
+  padding: 80rpx;
+}
+.info .info_title{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.info .info_detail{
+  margin-top: 5px;
+  color: #888888;
+  text-align: left;
+  font-size: 14px;
+}
 button {
   margin-bottom: 16px;
   width: 80%;

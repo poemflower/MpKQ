@@ -80,5 +80,22 @@ Page({
       default: 
         console.log("default");
     }
+  },
+  NavTapEvent: function (e){
+    let index = e.detail.index
+    switch (index) {
+      case 0:
+        wx.navigateTo({
+          url: '/pages/tabs/tabs',
+        })
+        break;
+      case 1:
+        wx.navigateTo({
+          url: '/pages/tabbar/tabbar',
+        })
+        break;
+      default:
+        console.log("default");
+    }
   }
 })

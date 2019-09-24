@@ -1,3 +1,7 @@
+<view class="info">
+  <view class="info_title">MpKQ</view>
+  <view class="info_detail">MpKQ是基于微信小程序整理的一套常用的组件</view>
+</view>
 <list sub="布局" datas="{{listDatas}}" bind:onTap="listTapEvent"/>
 <list sub="表单" bind:onTap="FormTapEvent" >
   <listItem text="Start 评分星星" showExtr="true"></listItem> 
@@ -8,4 +12,7 @@
   <listItem text="SearchBar 搜索框" showExtr="true"></listItem> 
   <listItem text="Stepper 步进器" showExtr="true"></listItem> 
 </list>
-
+<list sub="导航" bind:onTap="NavTapEvent" >
+  <listItem text="Tabs 标签页" showExtr="true"></listItem> 
+  <listItem text="TabBar 底部导航" showExtr="true"></listItem> 
+ </list>

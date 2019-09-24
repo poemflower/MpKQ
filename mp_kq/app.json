@@ -12,7 +12,9 @@
     "pages/radio/radio",
     "pages/checkbox/checkbox",
     "pages/searchbar/searchbar",
-    "pages/stepper/stepper"
+    "pages/stepper/stepper",
+    "pages/tabs/tabs",
+    "pages/tabbar/tabbar"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,19 @@
+<!--pages/tabbar/tabbar.wxml-->
+<view class="title" >基本用法</view>
+<TabBar current="{{current}}" bind:change="changeCurrent">
+  <BarItem key="homepage" title="首页" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="application" title="应用" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="my" title="我的" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+</TabBar>
+<view class="title">自定义颜色</view>
+<TabBar color='red' current="{{current}}" bind:change="changeCurrent">
+  <BarItem key="homepage" title="首页" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="application" title="应用" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="my" title="我的" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+</TabBar>
+<view class="title">固定底部</view>
+<TabBar fixed current="{{current}}" bind:change="changeCurrent">
+  <BarItem key="homepage" title="首页" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="application" title="应用" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+  <BarItem key="my" title="我的" image="{{base64.icon20}}" imageChecked="{{base64.icon20}}"/>
+</TabBar>

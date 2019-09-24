@@ -1,0 +1,6 @@
+<!--components/tabs/tab_item.wxml-->
+<view class="mpkq-tab_item" bindtap="_handleClickItem" 
+style="color:{{checked?color:'#000'}}">
+  <view>{{title}}</view>
+  <view class="mpkq-tab_bar" wx:if="{{ checked }}" style="background: {{ color }}"></view>
+</view>

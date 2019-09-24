@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -95,6 +95,20 @@
 					"id": -1,
 					"name": "checkbox",
 					"pathName": "pages/checkbox/checkbox",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tabs",
+					"pathName": "pages/tabs/tabs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tabbar",
+					"pathName": "pages/tabbar/tabbar",
 					"scene": null
 				}
 			]

@@ -1,0 +1,22 @@
+/* components/tabs/tabs.wxss */
+.mpkq-tabsBox{
+  width: 100%;
+  box-shadow:0 0 20rpx rgba(0,0,0,0.1);
+  background-color:#fff;
+  display: flex;
+  line-height:80rpx;
+  height:80rpx;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-align: center;
+}
+.mpkq-scrollBox{
+  width: 100%;
+  white-space:nowrap;
+}
+.mpkq-tabs-fixed{
+  position:fixed;
+  top:0;
+  z-index:2
+}
