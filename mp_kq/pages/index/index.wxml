@@ -3,6 +3,13 @@
   <view class="info_detail">MpKQ是基于微信小程序整理的一套常用的组件</view>
 </view>
 <list sub="布局" datas="{{listDatas}}" bind:onTap="listTapEvent"/>
+<list sub="小组件" bind:onTap="littleTapEvent">
+  <listItem text="Dialog 弹窗" showExtr="true"></listItem> 
+  <listItem text="CountDown 倒计时" showExtr="true"></listItem> 
+  <listItem text="Divider 分隔符" showExtr="true"></listItem> 
+  <listItem text="Tag 标签" showExtr="true"></listItem> 
+  <listItem text="HalfScreen Dialog 半屏弹窗" showExtr="true"></listItem> 
+</list> 
 <list sub="表单" bind:onTap="FormTapEvent" >
   <listItem text="Start 评分星星" showExtr="true"></listItem> 
   <listItem text="Input 输入框" showExtr="true"></listItem> 

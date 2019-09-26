@@ -18,8 +18,13 @@
   width: 68rpx;
 }
 .mpkq-radio_text{
-  display: inline-block;
   flex: 1;
+  display: flex;
+}
+.mpkq-radio_text image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 4px;
 }
 .mpkq-left{
   flex-direction: row

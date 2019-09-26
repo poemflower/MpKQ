@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -109,6 +109,35 @@
 					"id": -1,
 					"name": "tabbar",
 					"pathName": "pages/tabbar/tabbar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "divider",
+					"pathName": "pages/divider/divider",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tag",
+					"pathName": "pages/tag/tag",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "countdown",
+					"pathName": "pages/countdown/countdown",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "half-screen-dialog",
+					"pathName": "pages/half-screen-dialog/half-screen-dialog",
+					"query": "",
 					"scene": null
 				}
 			]

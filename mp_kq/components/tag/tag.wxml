@@ -1,0 +1,7 @@
+<!--components/tag/tag.wxml-->
+<view wx:if="{{border}}" class="mpkq-tag_box_border" style="border-color:{{color}};color:{{color}}">
+  <view class="mpkq-tag_title">{{title}}<slot></slot></view>
+</view>
+<view wx:else class="mpkq-tag_box" style="background-color:{{color}}">
+  <view class="mpkq-tag_title">{{title}}<slot></slot></view>
+</view>

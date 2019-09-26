@@ -1,29 +1,23 @@
-// pages/radio/radio.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    show1: false,
+    show2: true,
+    current: '微信',
     arrary: [{
-      id:0,
-      value:'beijing' ,
-      label: '北京' 
-    }, {
-        id: 1,
-        value: '河北',
-        label: '河北' 
-    }, {
-        id: 2,
-        value: '南京',
-        label: '南京' 
-    }, {
-        id: 3,
-        value: '上海',
-        label: '上海' 
+      id: 0,
+      value: '微信',
+      label: '微信',
+      image: '/assets/images/icon_WeixinJSPAY.png'
+    } , {
+      id: 3,
+      value: '会员',
+      label: '会员',
+      image: '/assets/images/icon_memberShip.png'
     }],
-    singleCheck:true,
-    current:'beijing'
   },
 
   /**
@@ -81,16 +75,19 @@ Page({
   onShareAppMessage: function () {
 
   },
-  changeRadio: function ({ detail = {} }){
-    console.log(detail)
+  openSheet: function (){
     this.setData({
-      current: detail.value
+      show1:true
     })
   },
-  changeSingle: function ({ detail = {} }){
-    console.log(detail)
+  openSheet2: function () {
     this.setData({
-      singleCheck: detail.checked
+      show2: true
+    })
+  },
+  changeRadio: function ({ detail = {} }) {
+    this.setData({
+      current: detail.value
     })
   }
 })

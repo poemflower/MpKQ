@@ -3,10 +3,7 @@ Page({
     showDialog: false,
     showDialog2: false,
     listDatas: [
-      {
-        text:'Dialog 弹窗',
-        showExtr: true,
-      }, {
+       {
         text: 'List 列表',
         showExtr: true, 
       }, {
@@ -20,17 +17,13 @@ Page({
   listTapEvent: function (e) {
     let index = e.detail.index
     switch (index){
+
       case 0: 
-        wx.navigateTo({
-          url: '/pages/dialog/dialog',
-        })
-        break;
-      case 1: 
         wx.navigateTo({
           url: '/pages/list/list',
         })
         break;
-      case 2:
+      case 1:
         wx.navigateTo({
           url: '/pages/grid/grid',
         })
@@ -94,6 +87,39 @@ Page({
           url: '/pages/tabbar/tabbar',
         })
         break;
+      default:
+        console.log("default");
+    }
+  },
+  littleTapEvent: function (e){
+    let index = e.detail.index
+    switch (index) {
+      case 0:
+        wx.navigateTo({
+          url: '/pages/dialog/dialog',
+        })
+        break;
+      case 1:
+        wx.navigateTo({
+          url: '/pages/countdown/countdown',
+        })
+        break;
+      case 2:
+        wx.navigateTo({
+          url: '/pages/divider/divider',
+        })
+        break;
+      case 3:
+        wx.navigateTo({
+          url: '/pages/tag/tag',
+        })
+        break;
+      case 4:
+        wx.navigateTo({
+          url: '/pages/half-screen-dialog/half-screen-dialog',
+        })
+        break;
+   
       default:
         console.log("default");
     }

@@ -1,0 +1,20 @@
+<view class="mpkq-dialog {{ show ? 'show' : '' }}">
+  <view class="mpkq-mask" bindtap="_onClickBg" />
+  <view class="mpkq-halfScreen_box" style="bottom:{{bottom}}rpx">
+    <view class="mpkq-halfScreen_header">
+      <view class="mpkq-halfScreen_header_left">
+        <view class="mpkq-icon-btn_close mpkq-icon-btn" bindtap="_onClickBg">关闭</view>
+        <!-- <icon color="#333" type="cancel" size="24" bindtap="_onClickBg" ></icon> -->
+      </view>
+      <view class="mpkq-halfScreen_header_center"> 
+        <view class='mpkq-halfScreen_title'>{{title}}</view>
+        <view class='mpkq-halfScreen_subtitle'>{{subtitle}}</view>
+      </view>
+      <view class="mpkq-halfScreen_header_right"></view>
+
+    </view>
+    <view class="dialog_scroll_box">
+      <slot></slot>
+    </view>
+  </view>
+</view>

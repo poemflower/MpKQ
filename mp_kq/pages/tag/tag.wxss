@@ -1,0 +1,8 @@
+/* pages/tag/tag.wxss */
+.container {
+  height: 100%;
+  padding: 0 10px;
+} 
+.i-tags{
+    margin:5px 5px 0 0;
+}

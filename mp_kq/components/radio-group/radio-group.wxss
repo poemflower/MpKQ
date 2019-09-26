@@ -1,1 +1,4 @@
 /* components/radio-group/radio-group.wxss */
+.mpkq-radio_groupBox{
+  margin: 0 40rpx;
+}

@@ -1,0 +1,36 @@
+.contain{
+  padding: 20px 0;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.no-padding{
+  padding:24rpx  0 !important;
+}
+.center{
+  text-align: center;
+}
+.dialog_desc {
+  padding-top: 4px;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgba(0,0,0,.9);
+  line-height: 1.4;
+}
+.dialog_tips {
+  padding-top: 16px;
+  font-size: 14px;
+  color: rgba(0,0,0,.3);
+  line-height: 1.4;
+}
+.dialog_button{
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+.half_button {
+  width: 40% !important;
+}
+.sigle_btn{
+  width: 100% !important;
+}

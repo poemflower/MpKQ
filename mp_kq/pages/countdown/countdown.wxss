@@ -1,0 +1,5 @@
+/* pages/countdown/countdown.wxss */
+.container {
+  height: 100%;
+  padding: 0 10px;
+} 

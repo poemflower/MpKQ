@@ -1,0 +1,18 @@
+/* components/countDown/countDown.wxss */
+.mpkq-coutDownBox{
+  color: #000;
+  font-size: 12px;
+  display: inline-block;
+}
+.mpkq-title{
+  min-width: 80px;
+}
+.mpkq-time{
+  margin-left: 4px;
+  min-width:80px
+}
+.mpkq-timeDom{
+  display: inline-block;
+}
+ 
+ 

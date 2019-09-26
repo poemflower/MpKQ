@@ -1,0 +1,28 @@
+<view class="title">基本用法</view>
+<button bindtap="openSheet" type="default">打开</button>
+<view class="title">组合用法</view>
+<button bindtap="openSheet2" type="default">打开</button>
+
+<halfScreen show="{{show1}}" title="标题" subtitle="副标题">
+  <view class="contain">
+    <view class="dialog_desc">自定义内容</view>
+    <view class="dialog_tips">辅助提示内容，可根据实际需要安排</view>
+    <view class="dialog_button">
+      <button class="half_button" type="default">辅操作</button>
+      <button class="half_button" type="primary">主操作</button>
+    </view>
+  </view>
+</halfScreen>
+
+<halfScreen show="{{show2}}" title="付款" >
+  <view class="contain">
+    <view class="dialog_desc center">100</view>
+    <view class="dialog_tips center">支付剩余时间</view>
+    <kq-radio-group bindchange="changeRadio" current="{{current}}" >
+      <kq-radio value="{{item.value}}" wx:for="{{arrary}}" wx:key="{{item.id}}" image="{{item.image}}" label="{{item.label}}" mpkq-class="no-padding" color="#06ad56"/>
+    </kq-radio-group>
+    <view class="dialog_button">
+      <button class="sigle_btn" type="primary">确认</button>
+    </view>
+  </view>
+</halfScreen>

@@ -1,0 +1,14 @@
+/* pages/divider/divider.wxss */
+.titleBox{
+  padding: 20rpx;
+  text-align: center;
+  line-height: 1.4;
+}
+.titleB{
+  font-size: 26rpx;
+  color: #000;
+}
+.titleL{
+  font-size: 20rpx;
+  color: #999
+}

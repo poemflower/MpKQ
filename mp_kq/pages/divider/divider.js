@@ -1,29 +1,11 @@
-// pages/radio/radio.js
+// pages/divider/divider.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    arrary: [{
-      id:0,
-      value:'beijing' ,
-      label: '北京' 
-    }, {
-        id: 1,
-        value: '河北',
-        label: '河北' 
-    }, {
-        id: 2,
-        value: '南京',
-        label: '南京' 
-    }, {
-        id: 3,
-        value: '上海',
-        label: '上海' 
-    }],
-    singleCheck:true,
-    current:'beijing'
+
   },
 
   /**
@@ -80,17 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  changeRadio: function ({ detail = {} }){
-    console.log(detail)
-    this.setData({
-      current: detail.value
-    })
-  },
-  changeSingle: function ({ detail = {} }){
-    console.log(detail)
-    this.setData({
-      singleCheck: detail.checked
-    })
   }
 })

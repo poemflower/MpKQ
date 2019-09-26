@@ -1,0 +1,6 @@
+<!--components/divider/divider.wxml-->
+<view class="mpkq-divider_box">
+  <view class="mpkq-divider_label" style="color:{{color}}">
+  {{title}}<slot></slot>
+  </view>
+</view>

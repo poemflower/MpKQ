@@ -14,7 +14,11 @@
     "pages/searchbar/searchbar",
     "pages/stepper/stepper",
     "pages/tabs/tabs",
-    "pages/tabbar/tabbar"
+    "pages/tabbar/tabbar",
+    "pages/divider/divider",
+    "pages/tag/tag",
+    "pages/countdown/countdown",
+    "pages/half-screen-dialog/half-screen-dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",

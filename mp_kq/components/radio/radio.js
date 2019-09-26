@@ -15,6 +15,10 @@ Component({
       type: String,
       value: ''
     },
+    label: {
+      type: String,
+      value: ''
+    },
     checked: {
       type: Boolean,
       value: false
@@ -23,6 +27,7 @@ Component({
       type: Boolean,
       value: false
     },
+    
     color: {
       type: String,
       value: '#2d8cf0'
@@ -34,7 +39,11 @@ Component({
     type: {
       type: String,
       value: 'circle', //circle button
-    }
+    },
+    image: {//type = circle 时生效
+      type: String,
+      value: ''
+    },
   },
 
   /**

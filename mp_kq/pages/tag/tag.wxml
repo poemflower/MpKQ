@@ -1,0 +1,11 @@
+<!--pages/tag/tag.wxml-->
+<view class="title">基础用法</view>
+<view class="container">
+  <tag class="i-tags">标签</tag>
+  <tag class="i-tags" color="#666">标签</tag> 
+</view>
+<view class="title">设置边框</view>
+<view class="container">
+  <tag class="i-tags" border>标签</tag>
+  <tag class="i-tags" border="true" color="#666">标签</tag> 
+</view>

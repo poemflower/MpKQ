@@ -1,0 +1,12 @@
+<!--pages/divider/divider.wxml-->
+<view class="title" >基础用法</view>
+<divider title="分割线"></divider>
+<view class="title" >自定义颜色</view>
+<divider color="#999" title="分割线"></divider>
+<view class="title" >自定义内容</view>
+<divider>
+  <view class="titleBox">
+    <view class="titleB">大标题</view>
+    <view class="titleL">小标题</view>
+  </view>
+</divider>

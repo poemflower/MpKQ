@@ -7,9 +7,12 @@
       color="{{color}}"
       disabled="{{disabled}}">
     </radio>
-    <view class="mpkq-radio_text">{{value}}</view>
+    <view class="mpkq-radio_text">
+      <image wx:if="{{image}}" src="{{image}}"/>
+      <view>{{label}}</view>   
+    </view>
   </label>
 </view>
 <view wx:else class="mpkq-class mpkq-radio_button {{checked?'mpkq-active':''}}" 
-style="background-color:{{checked?color:''}} " catchtap="_tapItem" >{{value}}</view> 
+style="background-color:{{checked?color:''}} " catchtap="_tapItem" >{{label}}</view> 
 

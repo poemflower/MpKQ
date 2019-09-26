@@ -1,0 +1,3 @@
+<!--pages/countdown/countdown.wxml-->
+<view class="title">基本用法</view>
+<view class="container"><countDown endDate="2020-11-23"/></view>

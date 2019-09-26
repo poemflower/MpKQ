@@ -1,0 +1,18 @@
+<!--components/countDown/countDown.wxml-->
+<view class="mpkq-coutDownBox countdown-class" wx:if="{{showTime}}">
+  <view class="mpkq-title" wx:if="{{title}}">{{title}}</view>
+  <view class="mpkq-time">
+    <text wx:if="{{day>0}}">{{day}}天 </text>
+    <view class='mpkq-timeDom' wx:if="{{hour>=0}}">
+      <view class='mpkq-timeInner'>{{hour}}</view>
+    </view>
+    <text wx:if="{{hour>=0}}"> : </text>
+    <view class='mpkq-timeDom' wx:if="{{minute>=0}}">
+      <view class='mpkq-timeInner'>{{minute}}</view>
+    </view>
+    <text wx:if="{{minute>=0}}"> : </text>
+    <view class='mpkq-timeDom' wx:if="{{second>=0}}">
+      <view class='mpkq-timeInner'>{{second}}</view>
+    </view>
+  </view>
+</view>

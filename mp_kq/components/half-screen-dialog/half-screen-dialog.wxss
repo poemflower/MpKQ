@@ -1,0 +1,77 @@
+.mpkq-dialog {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.mpkq-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+.show{
+  visibility:visible;
+  opacity:1;
+}
+.mpkq-halfScreen_box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background: white;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  padding: 10rpx 48rpx;
+}
+.show .mpkq-halfScreen_box {
+  transform: translateY(0);
+}
+.mpkq-halfScreen_header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.mpkq-halfScreen_header icon,.mpkq-halfScreen_header .mpkq-icon-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.mpkq-halfScreen_header_left{
+  position: relative;
+  left: -8px;
+}
+.mpkq-halfScreen_header_right{
+  right: -8px;
+  left: auto;
+  position: relative;
+}
+.mpkq-halfScreen_header_center{
+  padding: 16rpx 30rpx;
+  background:white;
+  text-align:center;
+  flex: 1;
+}
+.mpkq-halfScreen_title{
+  color:#000;
+  font-size:34rpx;
+  line-height:60rpx;
+  font-weight:700
+}
+.mpkq-halfScreen_subtitle{
+  color:#666;
+  font-size:22rpx;
+  line-height:30rpx;
+}
+.mpkq-dialog_scroll_box{
+  height:720rpx
+}

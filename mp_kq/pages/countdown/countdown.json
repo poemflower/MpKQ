@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "countDown": "/components/countDown/countDown"
+  },
+  "navigationBarTitleText": "倒计时"
+}
