@@ -1,13 +1,13 @@
 <!--pages/radio/radio.wxml-->
 <view class="title">group用法</view>
 <kq-radio-group bindchange="changeRadio" current="{{current}}">
-  <kq-radio value="{{item.value}}" label="{{item.label}} "wx:for="{{arrary}}" wx:key="{{item.id}}"  mpkq-class="base-line"/>
+  <kq-radio value="{{item.value}}" label="{{item.label}} "wx:for="{{arrary}}" wx:key="{{item.id}}"  mpkq-class="base-line" disabled="{{item.disabled}}"/>
 </kq-radio-group>
 <list sub="按钮样式">
   <listItem text="地区">
     <view slot="value">
       <kq-radio-group bindchange="changeRadio" current="{{current}}">
-        <kq-radio value="{{item.value}}" label="{{item.label}}" type="button" wx:for="{{arrary}}" wx:key="{{item.id}}" color="#19be6b"/>
+        <kq-radio value="{{item.value}}" label="{{item.label}}" type="button" wx:for="{{arrary}}" wx:key="{{item.id}}" color="#19be6b" disabled="{{item.disabled}}"/>
       </kq-radio-group>
     </view>
   </listItem>

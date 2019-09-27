@@ -20,7 +20,8 @@ Page({
     }, {
         id: 3,
         value: '上海',
-        label: '上海' 
+        label: '上海',
+        disabled:true
     }],
     singleCheck:true,
     current:'beijing'

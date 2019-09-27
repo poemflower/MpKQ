@@ -13,6 +13,6 @@
     </view>
   </label>
 </view>
-<view wx:else class="mpkq-class mpkq-radio_button {{checked?'mpkq-active':''}}" 
+<view wx:else class="mpkq-class mpkq-radio_button {{disabled?'mpkq-disabled':''}} {{checked?'mpkq-active':''}}" 
 style="background-color:{{checked?color:''}} " catchtap="_tapItem" >{{label}}</view> 
 

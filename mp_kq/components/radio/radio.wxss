@@ -52,3 +52,6 @@
 .mpkq-active{
   color: #fff ;
 }
+.mpkq-disabled{
+  color: #999 ;
+}
