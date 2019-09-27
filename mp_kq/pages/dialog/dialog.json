@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "dialog": "/components/dialog/dialog"
+    "dialog": "/components/dialog/dialog",
+    "kq-radio": "/components/radio/radio",
+    "kq-radio-group": "/components/radio-group/radio-group"
+        
   },
   "navigationBarTitleText": "弹窗组件"
 }

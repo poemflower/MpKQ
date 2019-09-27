@@ -1,7 +1,17 @@
 <!--pages/dialog/dialog.wxml-->
 <view class="title">基本用法</view>
 <button bindtap="openDialog" type="default">打开</button>
-<dialog show="{{show}}" title="弹窗标题">
-  <image class="dialog_img" src="{{base64.icon20}}" mode="widthFix"></image>
-
+<view class="title">组合用法</view>
+<button bindtap="openDialog2" type="default">打开</button>
+<dialog show="{{show}}" title="弹窗标题" bind:close="closeWindow">
+  <view class="dialog_box">
+      <image class="dialog_img" src="{{base64.icon20}}" mode="widthFix"></image>
+  </view>
+</dialog>
+<dialog show="{{show2}}" icon="back" title="弹窗标题" bind:close="closeWindow2" mpkq-class="no-padding">
+  <scroll-view scroll-y style="height:250px" class="scrollBg" >
+    <kq-radio-group bindchange="changeRadio" current="{{current}}" >
+      <kq-radio value="{{item.value}}" wx:for="{{arrary}}" wx:key="{{item.id}}" image="{{item.image}}" label="{{item.label}}"  mpkq-class="base-line" color="#06ad56"/>
+    </kq-radio-group>
+  </scroll-view>
 </dialog>

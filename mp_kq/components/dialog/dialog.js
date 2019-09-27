@@ -1,5 +1,7 @@
 // components/dialog/dialog.js
 Component({
+  externalClasses: ['mpkq-class'],
+
   options: {
     styleIsolation: 'apply-shared'
   },
@@ -14,8 +16,12 @@ Component({
     },
     title: {
       type: String,
-      value: false
+      value: ''
     },
+    icon: {
+      type: String, //  back返回||close关闭
+      value: 'close'
+    }
   },
 
   /**
@@ -45,11 +51,11 @@ Component({
     * 内部私有方法建议以下划线开头
     * triggerEvent 用于触发事件
     */
-    _cancelEvent() {
-      //触发取消回调
+ 
+    _onClickBg(){
       this.closeDialog()
-      this.triggerEvent("cancelEvent", {})
-    },
+      this.triggerEvent("close", {})
+    }
   },
 
   observers: {
