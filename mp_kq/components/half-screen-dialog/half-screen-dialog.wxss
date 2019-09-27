@@ -27,7 +27,9 @@
   transition: all 0.3s ease;
   border-top-left-radius:15px;
   border-top-right-radius:15px;
-  padding: 10rpx 48rpx;
+  padding:0 24px;
+  padding:0 calc(24px + constant(safe-area-inset-right)) constant(safe-area-inset-bottom) calc(24px + constant(safe-area-inset-left));
+  padding:0 calc(24px + env(safe-area-inset-right)) env(safe-area-inset-bottom) calc(24px + env(safe-area-inset-left))
 }
 .show .mpkq-halfScreen_box {
   transform: translateY(0);

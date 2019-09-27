@@ -1,26 +1,18 @@
 <!--components/dialog/dialog.wxml-->
-<view class="mpkq-demo-dialog {{isShow ? 'mpkq-demo-dialog_show' : ''}}">
-  <view class="mpkq-mask" bindtap="_cancelEvent"></view>
-  <view class="mpkq-dialog__wrp" bindtap="_cancelEvent">
-      <view class="mpkq-dialog" catchtap="stopEvent">
-        <view class="mpkq-dialog__hd" wx:if="{{title}}">
-          <view class="mpkq-dialog__title">{{title}}</view>
-        </view>
-        <view class="mpkq-dialog__bd">
-          <view wx:if="content">{{content}}</view>
-          <slot></slot>
-        </view>
-        <block wx:if="{{buttons.length>0}}">
-          <view class="mpkq-dialog__ft">
-            <view wx:for="{{buttons}}" wx:for-item="button" wx:key="" class="mpkq-dialog__btn mpkq-dialog__btn_default" bindtap="_buttonEvent" style="{{button.color?'color:'+button.color:''}}" data-index="{{index}}">{{button.text}}</view>
-          </view>
-        </block>
-        <block wx:else>
-          <view class="mpkq-dialog__ft" wx:if="{{!(!showCancel&&!showOk)}}">
-            <view wx:if="{{showCancel}}" class="mpkq-dialog__btn" bindtap="_cancelEvent">{{cancelText}}</view>
-            <view wx:if="{{showOk}}" class="mpkq-dialog__btn mpkq-dialog__btn_primary" bindtap="_confirmEvent">{{okText}}</view>
-          </view>
-        </block>
+<view class="mpkq-dialog {{ show ? 'show' : '' }}">
+  <view class="mpkq-mask" bindtap="_onClickBg" />
+  <view class="mpkq-dialog_box" style="bottom:{{bottom}}rpx">
+    <view class="mpkq-dialog_header">
+      <view class="mpkq-dialog_header_left">
+        <view class="mpkq-icon-btn_close mpkq-icon-btn" bindtap="_onClickBg">关闭</view>
       </view>
+      <view class="mpkq-dialog_header_center"> 
+        <view class='mpkq-dialog_title'>{{title}}</view>
+      </view>
+      <view class="mpkq-dialog_header_right"></view>
+    </view>
+    <view class="dialog_scroll_box">
+      <slot></slot>
+    </view>
   </view>
 </view>

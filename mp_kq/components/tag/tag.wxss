@@ -16,13 +16,13 @@
   color: #2d8cf0;
   border:1px solid;
   border-color:#2d8cf0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   font-weight: 300;
-  height: 20px; 
-  line-height: 20px;
+  height: 18px; 
+  line-height: 18px;
   border-radius: 2px;
   vertical-align: middle;
-  padding:0 4px;
+  padding:0 3px;
 }
 .mpkq-tag_title{
   padding: 0 5px;

@@ -1,11 +1,7 @@
 <!--pages/dialog/dialog.wxml-->
-<view class="container">
-  <button class="mpkq-btn" type="default" bindtap="openConfirm">原生 Dialog</button>
-  <button class="mpkq-btn" type="default" bindtap="showDialogFun" >拟态弹窗</button>
-  <button class="mpkq-btn" type="default" bindtap="showDialogFun2" >警告弹窗</button>
-  </view>
-<dialog show="{{showDialog}}" bindcancelEvent="cancelEvent" bindconfirmEvent="confirmEvent"  title="确认" content="弹窗内容，告知当前状态、信息和解决方法"></dialog>
-<dialog show="{{showDialog2}}" showCancel="{{false}}" showOk="{{false}}" >
-  <icon type="warn" size="64" color="#FFBE00"></icon>
-  <view>警告弹窗</view>
+<view class="title">基本用法</view>
+<button bindtap="openDialog" type="default">打开</button>
+<dialog show="{{show}}" title="弹窗标题">
+  <image class="dialog_img" src="{{base64.icon20}}" mode="widthFix"></image>
+
 </dialog>

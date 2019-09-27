@@ -2,8 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "components/dialog/dialog",
-    "pages/dialog/dialog",
+    "pages/modal/modal",
     "pages/list/list",
     "pages/grid/grid",
     "pages/start/start",
@@ -18,7 +17,8 @@
     "pages/divider/divider",
     "pages/tag/tag",
     "pages/countdown/countdown",
-    "pages/half-screen-dialog/half-screen-dialog"
+    "pages/half-screen-dialog/half-screen-dialog",
+    "pages/dialog/dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",

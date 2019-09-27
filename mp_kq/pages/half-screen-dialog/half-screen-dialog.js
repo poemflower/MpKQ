@@ -5,7 +5,7 @@ Page({
    */
   data: {
     show1: false,
-    show2: true,
+    show2: false,
     current: '微信',
     arrary: [{
       id: 0,

@@ -96,7 +96,7 @@ Page({
     switch (index) {
       case 0:
         wx.navigateTo({
-          url: '/pages/dialog/dialog',
+          url: '/pages/modal/modal',
         })
         break;
       case 1:
@@ -119,7 +119,11 @@ Page({
           url: '/pages/half-screen-dialog/half-screen-dialog',
         })
         break;
-   
+      case 5:
+        wx.navigateTo({
+          url: '/pages/dialog/dialog',
+        })
+        break;
       default:
         console.log("default");
     }
