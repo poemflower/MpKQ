@@ -1,4 +1,7 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "badge": "/components/badge/badge",
+    "mpkq-icon": "../icon/icon"
+  }
 }

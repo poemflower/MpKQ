@@ -123,6 +123,11 @@ Page({
         wx.navigateTo({
           url: '/pages/dialog/dialog',
         })
+        break; 
+      case 6:
+        wx.navigateTo({
+          url: '/pages/icon/icon',
+        })
         break;
       default:
         console.log("default");

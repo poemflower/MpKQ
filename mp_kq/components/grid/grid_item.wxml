@@ -1,7 +1,12 @@
 <!--components/grid/grid_item.wxml-->
-<view class="mpkq-gridItem" bindtap="_tapItemEvent">
-  <view class='mpkq-grid_icon'>
-    <image src="{{icon}}"></image>
+ 
+<badge dot="{{dot}}" count="{{count}}">
+  <view class="mpkq-gridItem" bindtap="_tapItemEvent">
+    <view class='mpkq-grid_icon'>
+      <mpkq-icon wx:if="{{icon}}" type="{{icon}}" size="24"></mpkq-icon>
+      <image wx:else src="{{image}}"></image>
+    </view>
+    <view class='mpkq-grid_text'>{{text}}<slot></slot></view>
   </view>
-  <view class='mpkq-grid_text'>{{text}}<slot></slot></view>
-</view>
+</badge>
+ 

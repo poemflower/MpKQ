@@ -45,7 +45,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-    isShow:false
+    isShow:false,
+    animationData:{}
   },
 
   /**
@@ -88,9 +89,25 @@ Component({
   observers: {
     'show': function (value) {
       // 在 value 被设置时，执行这个函数
+      this.animation.scale(1.1, 1.1).step()
+      this.animation.scale(1, 1).step()
       this.setData({
-        isShow: value
+        isShow: value,
+        animationData: this.animation.export()
       })       
     } 
+  },
+  attached: function () {
+    // 在组件实例进入页面节点树时执行
+    var animation = wx.createAnimation({
+      duration: 100,
+      timingFunction: 'ease',
+    })
+    this.setData({
+      animationData: animation.export()
+    })
+
+    this.animation = animation
   }
+   
 })

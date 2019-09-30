@@ -4,7 +4,7 @@
   <view class="mpkq-dialog_box mpkq-class">
     <view class="mpkq-dialog_header">
       <view class="mpkq-dialog_header_left">
-        <view class="{{icon=='back'?'mpkq-icon-btn_back ':'mpkq-icon-btn_close '}}   mpkq-icon-btn" bindtap="_onClickBg">{{icon=='back'?'返回':'关闭'}}</view>
+        <mpkq-icon type="{{icon}}" size="16" color="#000" bindtap="_onClickBg"/>
       </view>
       <view class="mpkq-dialog_header_center"> 
         <view class='mpkq-dialog_title'>{{title}}</view>

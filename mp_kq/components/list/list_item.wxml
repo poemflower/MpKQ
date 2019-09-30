@@ -4,7 +4,7 @@
     <image src="{{icon}}"></image>
   </view>
   <view class='mpkq-list_title'>
-    <view class='mpkq-list_text'>{{text}}</view>
+    <view class='mpkq-list_text'>{{text}}<slot name="text"></slot></view>
     <view class="mpkq-list_des">{{des}}<slot name="des"></slot></view>
   </view>
   <view class='mpkq-list_value'> 
@@ -12,6 +12,6 @@
     <block wx:else><slot name="value"></slot></block>
   </view>
   <view class='mpkq-list_extr' wx:if="{{showExtr}}">
-    <image src="/assets/images/icon_right.png"></image>
+    <mpkq-icon type="arrow_right" size="16" color="#999"/>
   </view>
 </view>

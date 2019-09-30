@@ -1,4 +1,3 @@
-@import './mpkq_mask.wxss';
 @import './mpkq_btn.wxss'; 
 page{
   background-color: #f9f9f9;

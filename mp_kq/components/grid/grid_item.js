@@ -13,6 +13,10 @@ Component({
       type: String,
       value: ''
     },
+    image: {
+      type: String,
+      value: ''
+    },
     text: {
       type: String,
       value: ''
@@ -20,7 +24,16 @@ Component({
     url: {
       type: String,
       value: ''
-    }
+    },
+    count: {
+      type: Number,
+      value: 0
+    },
+    dot: {
+      type: Boolean,
+      value: false
+    },
+
   },
 
   /**

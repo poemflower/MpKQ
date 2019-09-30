@@ -14,5 +14,22 @@
   <listItem icon="{{base64.icon20}}" showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
   <listItem icon="{{base64.icon20}}" showExtr="{{true}}" text="标题文本" value="说明文本" ></listItem> 
 </list>
+<list sub="表单"  >
+  <listItem text="输入框" des="密码类" wx:if="{{ showInput }}">
+    <view slot="value">
+      <kq-input placeholder="请输入" bindfocus="inputfocus" bindblur="inputblur" bindclear="inputclear" type="password" bindchange="inputchange"/>
+    </view>
+  </listItem> 
+  <listItem text="开关" >
+    <view slot="value">
+      <switch checked="{{showInput}}" bindchange="switchChange"/>
+    </view>
+  </listItem> 
+    <listItem showExtr>
+    <view slot="text">
+      <badge dot>badge</badge>
+    </view>
+  </listItem> 
+</list>
 <list sub="使用datas生成列表" datas="{{listDatas}}" bind:onTap="listTapEvent" bindtapSub="tapSubEvent" />
 

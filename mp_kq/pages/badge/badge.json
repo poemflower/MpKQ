@@ -1,5 +1,4 @@
 {
-  "component": true,
   "usingComponents": {
     "badge": "/components/badge/badge"
   }

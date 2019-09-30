@@ -2,10 +2,7 @@
 Component({
   externalClasses: ['mpkq-class'],
 
-  options: {
-    styleIsolation: 'apply-shared'
-  },
-
+   
   /**
    * 组件的属性列表
    */
@@ -20,7 +17,7 @@ Component({
     },
     icon: {
       type: String, //  back返回||close关闭
-      value: 'close'
+      value: 'close1'
     }
   },
 

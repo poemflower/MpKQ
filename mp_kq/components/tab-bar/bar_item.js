@@ -32,7 +32,15 @@ Component({
     imageChecked: {
       type: String,
       value: ''
-    }
+    },
+    count: {
+      type: Number,
+      value: 0
+    },
+    dot: {
+      type: Boolean,
+      value: false
+    },
 
   },
 

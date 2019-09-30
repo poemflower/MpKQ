@@ -24,7 +24,15 @@ Component({
     checked: {
       type: Boolean,
       value: false
-    }
+    },
+    count:{
+      type:Number,
+      value: 0
+    },
+    dot: {
+      type: Boolean,
+      value: false
+    },
   },
 
   /**

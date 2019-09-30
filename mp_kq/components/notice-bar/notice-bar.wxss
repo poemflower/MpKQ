@@ -1,0 +1,20 @@
+/* components/notice-bar/notice-bar.wxss */
+.mpkq-noticeBar_box{
+  padding: 8rpx;
+  display: flex;
+}
+.mpkq-noticeBar_iconBox{
+  width: 120rpx;
+  text-align: center;
+}
+.mpkq-noticeBar_iconBox image{
+  height: 30rpx;
+}
+.mpkq-noticeBar_textBox{
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 30rpx;
+}
+.mpkq-noticeBar_closeBox{
+  width: 120rpx;
+}

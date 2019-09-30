@@ -10,7 +10,7 @@ Component({
     },
     size: {        // 大小
       type: Number,
-      value: 20
+      value: 24
     },
     value: {        // 大小
       type: Number,
@@ -20,6 +20,14 @@ Component({
       type: Boolean,
       value: false
     },
+    icon:{
+      type: String,
+      value:'star_filled'
+    },
+    color: {
+      type: String,
+      value: 'red'
+    }
   },
 
   /**

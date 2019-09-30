@@ -1,7 +1,9 @@
 {
   "usingComponents": {
+    "kq-input": "/components/input/input",
     "list": "/components/list/list",
-    "listItem": "/components/list/list_item"
+    "listItem": "/components/list/list_item",
+    "badge": "/components/badge/badge"
   },
   "navigationBarTitleText": "列表组件"
 }

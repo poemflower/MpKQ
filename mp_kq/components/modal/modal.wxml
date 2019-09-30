@@ -2,7 +2,7 @@
 <view class="mpkq-demo-dialog {{isShow ? 'mpkq-demo-dialog_show' : ''}}">
   <view class="mpkq-mask" bindtap="_cancelEvent"></view>
   <view class="mpkq-dialog__wrp" bindtap="_cancelEvent">
-    <view class="mpkq-dialog" catchtap="stopEvent">
+    <view class="mpkq-dialog" catchtap="stopEvent" animation="{{animationData}}">
       <view class="mpkq-dialog__hd" wx:if="{{title}}">
         <view class="mpkq-dialog__title">{{title}}</view>
       </view>

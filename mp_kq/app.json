@@ -18,7 +18,9 @@
     "pages/tag/tag",
     "pages/countdown/countdown",
     "pages/half-screen-dialog/half-screen-dialog",
-    "pages/dialog/dialog"
+    "pages/dialog/dialog",
+    "pages/badge/badge",
+    "pages/icon/icon"
   ],
   "window": {
     "backgroundTextStyle": "light",

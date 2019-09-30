@@ -1,0 +1,6 @@
+<!--components/badge/badge.wxml-->
+<view class="mpkq-badge_Box ">
+  <slot></slot>
+  <view class="mpkq-badge_dot" wx:if="{{ dot }}"></view>
+  <view class="mpkq-badge_label mpkq-class"  wx:elif="{{ count !== 0 }}">{{finalCount}}</view>
+</view>

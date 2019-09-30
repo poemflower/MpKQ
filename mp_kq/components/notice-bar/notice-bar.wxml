@@ -1,0 +1,8 @@
+<!--components/notice-bar/notice-bar.wxml-->
+<view wx:if="{{show}}" class="mpkq-noticeBar_box mpkq-class" style="color: {{ color }}; background-color: {{ backgroundcolor }}">
+  <view wx:if="{{image}}" class="mpkq-noticeBar_iconBox"><image mode="aspectFill" src="{{image}}"></image></view>
+  <view class="mpkq-noticeBar_textBox">
+    <view class="mpkq-text">{{notice}}</view>
+  </view>
+  <view class="mpkq-noticeBar_closeBox" wx:if="{{closable}}"></view>
+</view>

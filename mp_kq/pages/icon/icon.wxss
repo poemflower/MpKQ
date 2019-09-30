@@ -1,0 +1,5 @@
+/* pages/icon/icon.wxss */
+.demo{
+  display: inline-block;
+  margin-right: 10px;
+}

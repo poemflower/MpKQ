@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mpqk-icon": "/components/icon/icon",
+    "grid": "/components/grid/grid",
+    "gridItem": "/components/grid/grid_item"
+        
+  }
+}

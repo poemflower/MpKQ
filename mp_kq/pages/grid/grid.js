@@ -18,7 +18,7 @@ Page({
     for (let i = 0; i < 12; i++) {
       listDatas.push({
         text: '标题文本' + i,
-        icon: base64.icon20
+        image: base64.icon20
       })
     }
     this.setData({ base64, listDatas })

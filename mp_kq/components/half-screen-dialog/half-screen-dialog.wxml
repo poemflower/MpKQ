@@ -3,9 +3,8 @@
   <view class="mpkq-halfScreen_box" style="bottom:{{bottom}}rpx">
     <view class="mpkq-halfScreen_header">
       <view class="mpkq-halfScreen_header_left">
-        <view class="mpkq-icon-btn_close mpkq-icon-btn" bindtap="_onClickBg">关闭</view>
-        <!-- <icon color="#333" type="cancel" size="24" bindtap="_onClickBg" ></icon> -->
-      </view>
+         <mpkq-icon type="close1" size="16" color="#000" bindtap="_onClickBg"/>
+       </view>
       <view class="mpkq-halfScreen_header_center"> 
         <view class='mpkq-halfScreen_title'>{{title}}</view>
         <view class='mpkq-halfScreen_subtitle'>{{subtitle}}</view>

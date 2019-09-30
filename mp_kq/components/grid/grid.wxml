@@ -7,6 +7,7 @@
     wx:key="" 
     text="{{item.text}}"
     icon="{{item.icon}}"
+    image="{{item.image}}"
     data-index="{{index}}"
     data-data="{{item}}"
     bindtap="_tapItemEvent"/>

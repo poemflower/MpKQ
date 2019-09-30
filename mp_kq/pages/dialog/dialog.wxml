@@ -8,7 +8,7 @@
       <image class="dialog_img" src="{{base64.icon20}}" mode="widthFix"></image>
   </view>
 </dialog>
-<dialog show="{{show2}}" icon="back" title="弹窗标题" bind:close="closeWindow2" mpkq-class="no-padding">
+<dialog show="{{show2}}" icon="arrow_left" title="弹窗标题" bind:close="closeWindow2" mpkq-class="no-padding">
   <scroll-view scroll-y style="height:250px" class="scrollBg" >
     <kq-radio-group bindchange="changeRadio" current="{{current}}" >
       <kq-radio value="{{item.value}}" wx:for="{{arrary}}" wx:key="{{item.id}}" image="{{item.image}}" label="{{item.label}}"  mpkq-class="base-line" color="#06ad56"/>

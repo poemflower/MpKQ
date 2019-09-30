@@ -24,9 +24,7 @@ Component({
       value: 0
     }
   },
-  options: {
-    styleIsolation: 'apply-shared'
-  },
+
   /**
    * 组件的初始数据
    */

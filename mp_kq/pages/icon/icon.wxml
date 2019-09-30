@@ -1,0 +1,38 @@
+<!--pages/icon/icon.wxml-->
+<grid sub="图标清单" bind:onTap="gridTapEvent" >
+  <gridItem text="arrow_right" icon="arrow_right" />
+  <gridItem text="arrow_left" icon="arrow_left" />
+  <gridItem text="arrow_up" icon="arrow_up" />
+  <gridItem text="arrow_down" icon="arrow_down" />
+  <gridItem text="close1" icon="close1" />
+  <gridItem text="close" icon="close" />
+  <gridItem text="close_filled" icon="close_filled" />
+  <gridItem text="check" icon="check" />
+  <gridItem text="check_filled" icon="check_filled" />
+  <gridItem text="info" icon="info" />
+  <gridItem text="info_filled" icon="info_filled" />
+  <gridItem text="like" icon="like" />
+  <gridItem text="like_filled" icon="like_filled" />
+  <gridItem text="star" icon="star" />
+  <gridItem text="star_filled" icon="star_filled" />
+  <gridItem text="help" icon="help" />
+  <gridItem text="help_filled" icon="help_filled" />
+  <gridItem text="voice" icon="voice" />
+  <gridItem text="setting" icon="setting" />
+  <gridItem text="view" icon="view" />
+  <gridItem text="view_off" icon="view_off" />
+  <gridItem text="share" icon="share" />
+  <gridItem text="search" icon="search" />
+  <gridItem text="lock" icon="lock" />
+  <gridItem text="time" icon="time" />
+  <gridItem text="calendar" icon="calendar" />
+  <gridItem text="cart_empty" icon="cart_empty" />
+  <gridItem text="customer_service" icon="customer_service" />
+  <gridItem text="refresh" icon="refresh" />
+  <gridItem text="delete" icon="delete" />
+</grid>
+<view class="title">type定义图标类型;color定义图标颜色</view>
+<view style="margin:10px;">
+  <mpqk-icon class="demo" type="check_filled" color="#07c160" size="64"/>
+  <mpqk-icon class="demo" type="info_filled" color="#FFBE00" size="64"/> 
+</view>

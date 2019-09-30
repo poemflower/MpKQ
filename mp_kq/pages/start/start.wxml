@@ -10,7 +10,10 @@
   </listItem>  
   <listItem text="自定义星星大小">
      <view slot="des"><start value="1" size="15"/></view>
-  </listItem>  
+  </listItem>
+  <listItem text="自定义颜色与图标">
+     <view slot="des"><start value="1" icon="like_filled" color="#ea4c89"/></view>
+  </listItem>    
   <listItem text="自定义个数" value="{{autoNum}}颗星星" >
     <view slot="des"><start value="{{autoNum}}" size="15" count="8" bind:change="changeAutoNum"/></view>
   </listItem>  

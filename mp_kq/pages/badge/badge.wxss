@@ -1,0 +1,15 @@
+/* pages/badge/badge.wxss */
+.demoSquare{
+  width: 40px;
+  height: 40px;
+  background-color: #fff !important;
+  border-radius: 8rpx;
+  display: inline-block;
+}
+.demo{
+  width: 20px;
+  height: 20px;
+}
+.demo_class{
+  background-color: #5cb85c !important;
+}

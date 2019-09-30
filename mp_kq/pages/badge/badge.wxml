@@ -1,0 +1,21 @@
+<!--pages/badge/badge.wxml-->
+<view style="margin:20px">
+  <badge dot>
+    <view class="demoSquare" ></view>
+  </badge>
+</view>
+<view style="margin:20px">
+  <badge count="8">
+    <view class="demoSquare" ></view>
+  </badge>
+</view>
+<view style="margin:20px">
+  <badge count="12">
+    <view class="demo" ></view>
+  </badge>
+</view>
+<view style="margin:20px">
+  <badge count="123"  mpkq-class="demo_class">
+    <view class="demo"></view>
+  </badge>
+</view>
