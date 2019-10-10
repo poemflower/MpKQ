@@ -129,6 +129,11 @@ Page({
           url: '/pages/icon/icon',
         })
         break;
+      case 7:
+        wx.navigateTo({
+          url: '/pages/badge/badge',
+        })
+        break;
       default:
         console.log("default");
     }

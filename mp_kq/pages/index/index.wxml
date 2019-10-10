@@ -11,6 +11,7 @@
   <listItem text="HalfScreen Dialog 半屏弹窗" showExtr="true"></listItem> 
   <listItem text="Dialog 弹窗" showExtr="true"></listItem>
   <listItem text="Icon 图标" showExtr="true"></listItem>
+  <listItem text="Badge 徽章" showExtr="true"></listItem>
 </list> 
 <list sub="表单" bind:onTap="FormTapEvent" >
   <listItem text="Start 评分星星" showExtr="true"></listItem> 

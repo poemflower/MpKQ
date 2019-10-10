@@ -1,0 +1,11 @@
+<!--components/steps/step_item.wxml-->
+<view class="mpkq-stepItem_box">
+  <view class="mpkq-stepItem_left">
+    <view class="mpkq-stepItem_icon"></view>
+    <view class="mpkq-stepItem_line"></view>
+  </view>
+  <view class="mpkq-stepItem_right">
+    <view class="mpkq-stepItem_title">{{title}}</view>
+    <view class="mpkq-stepItem_des">{{des}}</view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+/* components/steps/steps.wxss */
+.mpkq-steps_box{
+  display: flex;
+}

@@ -1,4 +1,9 @@
 <!--pages/icon/icon.wxml-->
+<view class="title">type定义图标类型;color定义图标颜色</view>
+<view style="margin:10px;">
+  <mpqk-icon class="demo" type="check_filled" color="#07c160" size="64"/>
+  <mpqk-icon class="demo" type="info_filled" color="#FFBE00" size="64"/> 
+</view>
 <grid sub="图标清单" bind:onTap="gridTapEvent" >
   <gridItem text="arrow_right" icon="arrow_right" />
   <gridItem text="arrow_left" icon="arrow_left" />
@@ -31,8 +36,3 @@
   <gridItem text="refresh" icon="refresh" />
   <gridItem text="delete" icon="delete" />
 </grid>
-<view class="title">type定义图标类型;color定义图标颜色</view>
-<view style="margin:10px;">
-  <mpqk-icon class="demo" type="check_filled" color="#07c160" size="64"/>
-  <mpqk-icon class="demo" type="info_filled" color="#FFBE00" size="64"/> 
-</view>

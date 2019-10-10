@@ -1,0 +1,28 @@
+/* components/steps/step_item.wxss */
+.mpkq-stepItem_box{
+  flex: 1
+}
+.mpkq-stepItem_left{
+  position: relative;
+  width: 60px;
+  text-align:center;
+  z-index: 1;
+}
+.mpkq-stepItem_right{
+  flex: 1; 
+}
+.mpkq-stepItem_title{
+  font-size: 28rpx; 
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 0.57px;
+  line-height: 48rpx;
+}
+.mpkq-stepItem_des{
+  font-size: 24rpx;
+  color: #AEAEAE;
+  letter-spacing: 0.235px;
+  line-height:40rpx;
+}
+.mpkq-stepItem_line{}
+.mpkq-stepItem_icon{}

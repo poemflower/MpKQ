@@ -1,4 +1,3 @@
-@import './mpkq_btn.wxss'; 
 page{
   background-color: #f9f9f9;
   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;

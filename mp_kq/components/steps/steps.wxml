@@ -1,0 +1,3 @@
+<view class="mpkq-class mpkq-steps_box">
+    <slot></slot>
+</view>
