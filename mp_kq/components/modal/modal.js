@@ -46,7 +46,7 @@ Component({
    */
   data: {
     isShow:false,
-    animationData:{}
+    animationData:{},
   },
 
   /**
@@ -89,12 +89,18 @@ Component({
   observers: {
     'show': function (value) {
       // 在 value 被设置时，执行这个函数
-      this.animation.scale(1.1, 1.1).step()
-      this.animation.scale(1, 1).step()
-      this.setData({
-        isShow: value,
-        animationData: this.animation.export()
-      })       
+      if (value){
+        this.animation.scale(1.1, 1.1).step()
+        this.animation.scale(1, 1).step()
+        this.setData({
+          isShow: value,
+          animationData: this.animation.export()
+        })   
+      }else{
+        this.setData({
+          isShow: value,
+        }) 
+      }
     } 
   },
   attached: function () {
