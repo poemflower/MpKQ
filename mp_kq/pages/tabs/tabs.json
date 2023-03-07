@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "Tabs": "/components/tabs/tabs",
-    "TabItem": "/components/tabs/tab_item"
+    "TabItem": "/components/tabs/tab_item",
+    "mpqk-icon": "/components/icon/icon"
   },
   "navigationBarTitleText": "标签页"
 }

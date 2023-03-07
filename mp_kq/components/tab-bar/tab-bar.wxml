@@ -2,3 +2,4 @@
 <view class="mpkq-tabBar_box {{fixed?'mpkq-tabBar_fixed':''}}">
   <slot></slot>
 </view>
+<view wx:if="{{fixed}}" class="tabBar_view"></view>

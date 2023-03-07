@@ -1,5 +1,5 @@
 <!--components/tabs/tab_item.wxml-->
-<view class="mpkq-tab_item" bindtap="_handleClickItem" 
+<view class="mpkq-tab_item" class="{{checked? 'mpkq-tab_item mpkq-tab_item_active active-class' : 'mpkq-tab_item'}}" bindtap="_handleClickItem" 
 style="color:{{checked?color:'#000'}}">
   <badge count="{{count}}" dot="{{dot}}">
     <view>{{title}}</view>

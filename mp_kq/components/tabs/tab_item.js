@@ -5,6 +5,7 @@ Component({
       type:'parent'
     }
   },
+  externalClasses: ['active-class'],
   /**
    * 组件的属性列表
    */

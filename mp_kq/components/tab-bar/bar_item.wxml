@@ -3,10 +3,12 @@
   <badge count="{{count}}" dot="{{dot}}">
     <view>
       <view class="mpkq-barItem_icon">
-        <icon wx:if="{{icon}}" type="{{checked?iconChecked:icon}}"/>
+        <mpkq-icon wx:if="{{icon}}" size="16"
+          type ="{{checked?checkedIcon:icon}}" 
+          color="{{checked?checkedColor:color}}"/>
         <image wx:else src="{{checked?imageChecked:image}}"/>
       </view>
-      <view class="mpkq-barItem_title" style="color:{{checked?checkedColor:'#333'}}">{{title}}</view>
+      <view class="mpkq-barItem_title" style="color:{{checked?checkedColor:color}}">{{title}}</view>
     </view>
   </badge>
 </view>

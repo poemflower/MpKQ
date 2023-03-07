@@ -1,1 +1,29 @@
 /* pages/tabs/tabs.wxss */
+.active_class{
+  color: #daa871 !important;
+  font-size: 18px !important;
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+.active_class:before {
+  color: #daa871 !important;
+  content: "\e6d8";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.active_class2{
+  color: #333 !important;
+  font-size: 18px !important;
+}
+.active_class3{
+  color: #e5e5e5 !important;
+  font-size: 18px !important;
+}
+.demo{
+  display: inline-block;
+  margin-right: 10px;
+}

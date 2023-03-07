@@ -21,14 +21,22 @@ Component({
       type: String,
       value: ''
     },
+    checkedIcon:{
+      type: String,
+      value: ''
+    },
     image: {
       type: String,
       value: ''
     }, 
-    iconChecked: {
+    checkedColor: {
       type: String,
-      value: ''
+      value: '#333'
     },
+    color: {
+      type: String,
+      value: '#666'
+    }, 
     imageChecked: {
       type: String,
       value: ''
@@ -47,8 +55,7 @@ Component({
   /**
    * 组件的初始数据
    */
-  data: {
-    checkedColor:'',
+  data: { 
     checked:false
   },
 
@@ -61,7 +68,7 @@ Component({
         checked
       })
     },
-    changeColor: function (color){
+    changeColor: function (color = this.data.checkedColor){
       this.setData({
         checkedColor:color
       })

@@ -25,7 +25,7 @@ Component({
     },
     color: {
       type: String,
-      value: '#2d8cf0'
+      value: ''
     },
     current:{
       type: String,
@@ -50,7 +50,7 @@ Component({
       const len = nodes.length
       if (len > 0) {
         nodes.forEach((item, index) => {
-          item.changeColor(this.data.color)
+          // item.changeColor(this.data.color)
           item.changeChecked(this.data.current === item.data.key)
         })
       }

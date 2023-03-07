@@ -7,6 +7,7 @@ Page({
   data: {
     tabVal:'1',
     tabVal2:'2',
+    tabVal4: '1',
     datas:[
       { title: '标题1', key: '1' , checked:true},
       { title: '标题2', key: '2' },
@@ -18,7 +19,8 @@ Page({
       { title: '标题8', key: '8' },
       { title: '标题9', key: '9' },
       { title: '标题10', key: '10' },
-      { title: '标题11', key: '11' }]
+      { title: '标题11', key: '11' }],
+    tabcolor: '#daa871'
   },
 
   /**
@@ -90,5 +92,12 @@ Page({
   },
   changeTabs3: function(e){
     console.log(e.detail.key)
+  },
+  changeTabs4: function(e){
+    let tabcolor = ['#daa87100','#33300','#e5e5e500'][e.detail.key-1]
+    this.setData({
+      tabVal4: e.detail.key,
+      tabcolor: tabcolor
+    })
   }
 })

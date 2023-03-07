@@ -13,3 +13,6 @@
   left: 0;
   z-index: 999;
 }
+.tabBar_view{
+  height: 120rpx;
+}

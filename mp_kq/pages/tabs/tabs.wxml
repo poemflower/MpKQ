@@ -12,3 +12,9 @@
 </Tabs>
 <view class="title">滚动</view>
 <Tabs bindchange="changeTabs3" scroll="{{true}}" datas="{{datas}}"></Tabs>
+<view class="title">自定义class</view>
+<Tabs current="{{tabVal4}}" bindchange="changeTabs4" color="{{tabcolor}}">
+  <TabItem title="标题1" key="1"  active-class="active_class"/>
+  <TabItem title="标题2" key="2"  active-class="active_class2"/>
+  <TabItem title="标题3" key="3"  active-class="active_class3"/>
+</Tabs>
