@@ -26,3 +26,8 @@
   <listItem text="Tabs 标签页" showExtr="true"></listItem> 
   <listItem text="TabBar 底部导航" showExtr="true"></listItem> 
  </list>
+ <TabBar fixed current="{{current}}" bind:change="changeCurrent">
+  <BarItem key="homepage" title="首页" icon="like" checkedIcon="like_filled" count="1" checkedColor="#06ad56"/>
+  <BarItem key="application" title="应用" icon="cart" checkedIcon="cart_filled" checkedColor="#06ad56" dot/>
+  <BarItem key="my" title="我的" icon="people" checkedIcon="people_filled" count="100" checkedColor="#06ad56"/>
+</TabBar>

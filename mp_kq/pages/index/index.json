@@ -1,7 +1,9 @@
 {
   "usingComponents": {
     "list": "/components/list/list",
-    "listItem": "/components/list/list_item"
+    "listItem": "/components/list/list_item",
+    "TabBar": "/components/tab-bar/tab-bar",
+    "BarItem": "/components/tab-bar/bar_item"
   },
   "navigationBarTitleText": "常用组件"
 }

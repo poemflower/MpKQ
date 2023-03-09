@@ -9,7 +9,8 @@ Page({
       }, {
         text: 'Grid 九宫格',
         showExtr: true,
-      } ]
+      } ],
+    current:'homepage'
   },
   onLoad: function () {
  
@@ -137,5 +138,11 @@ Page({
       default:
         console.log("default");
     }
+  },
+  changeCurrent: function (e) {
+    console.log(e)
+    this.setData({
+      current:e.detail.key
+    })
   }
 })
