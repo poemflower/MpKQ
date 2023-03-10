@@ -1,0 +1,5 @@
+/* components/artical/artical.wxss */
+.mpkq-artical_bg{
+  background-color: #fff;
+  padding: 20rem;
+}
