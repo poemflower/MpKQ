@@ -4,7 +4,19 @@
   <mpqk-icon class="demo" type="check_filled" color="#07c160" size="64"/>
   <mpqk-icon class="demo" type="info_filled" color="#FFBE00" size="64"/> 
 </view>
-<grid sub="图标清单" bind:onTap="gridTapEvent" >
+<grid sub="图标清单" bind:onTap="gridTapEvent" >  
+  <gridItem text="location" icon="location" />
+  <gridItem text="location_filled" icon="location_filled" />
+  <gridItem text="people" icon="people" />
+  <gridItem text="people_filled" icon="people_filled" />
+  <gridItem text="all" icon="all" />
+  <gridItem text="all_filled" icon="all_filled" />
+  <gridItem text="shop" icon="shop" />
+  <gridItem text="shop_filled" icon="shop_filled" />
+  <gridItem text="triangleUp_filled" icon="triangleUp_filled" />
+  <gridItem text="triangleDown_filled" icon="triangleDown_filled" />
+  <gridItem text="droparrow" icon="droparrow" />
+  <gridItem text="uparrow" icon="uparrow" />
   <gridItem text="arrow_right" icon="arrow_right" />
   <gridItem text="arrow_left" icon="arrow_left" />
   <gridItem text="arrow_up" icon="arrow_up" />
@@ -31,8 +43,14 @@
   <gridItem text="lock" icon="lock" />
   <gridItem text="time" icon="time" />
   <gridItem text="calendar" icon="calendar" />
-  <gridItem text="cart_empty" icon="cart_empty" />
+  <gridItem text="cart" icon="cart" />
+  <gridItem text="cart_filled" icon="cart_filled" />
   <gridItem text="customer_service" icon="customer_service" />
   <gridItem text="refresh" icon="refresh" />
   <gridItem text="delete" icon="delete" />
+  <gridItem text="vip" icon="vip" />
+  <gridItem text="new" icon="new" />
+  <gridItem text="dollar" icon="dollar" />
+  <gridItem text="gift" icon="gift" />
+  <gridItem text="qrcode" icon="qrcode" />
 </grid>
